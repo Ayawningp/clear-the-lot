@@ -21,4 +21,7 @@ build/
 
 # app
 .pytest_cache/
+
+# raw statewide APR downloads (too big for GitHub; re-download from data.ca.gov)
 data/raw/
+/tablea*.csv
