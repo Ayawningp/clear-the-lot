@@ -18,3 +18,7 @@ build/
 .next/
 .DS_Store
 *.zip
+
+# app
+.pytest_cache/
+data/raw/

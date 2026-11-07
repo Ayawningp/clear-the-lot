@@ -83,13 +83,13 @@ How the defaults were derived: the worked example ends with a $95k gap after a 1
 
 ## How Claude is used
 
-- **Building it:** Claude helped write the build spec, the pipeline, the tests and the Streamlit screens. The ten offline tests were written first and define "working."
+- **Building it:** Claude helped write the build spec, the pipeline, the tests and the Streamlit screens. The offline tests were written first and define "working."
 - **Inside the tool:** on the Compare tab, Claude writes a one-page board memo comparing the two cities. It works only from a JSON object of numbers the pipeline computed: medians, intervals, counts, labels, still-waiting counts, match rate, receipt figures, the assumptions used, and the limitations. The prompt forbids any number not in the input, requires "unknown" for missing fields, and requires every assumption to be named as one.
 - **What a person checks:** a guard compares every number in the memo against the input. If any number fails, the memo is shown with a warning for a person to review. If the API call fails, the app shows a saved backup memo (`data/sample/memo_backup.md`).
 
 ## Try it
 
-Runs offline from the committed sample data. You need Python 3.11+ and git. No API key is needed, except to generate a new memo.
+Runs offline from the committed sample data. You need Python and git (tested with Python 3.14). No API key is needed, except to generate a new memo.
 
 ```bash
 git clone https://github.com/Ayawningp/clear-the-lot.git
@@ -103,11 +103,17 @@ streamlit run app.py
 
 Environment variables: `ANTHROPIC_API_KEY` (optional, memo only). It goes in your local `.env`, which git ignores. No keys are in this repo.
 
-<!-- TODO (builder, by 1:50): confirm exact commands in a fresh clone; paste actual pytest output below -->
+Test output (Python 3.14.7, Windows, November 7, 2026):
 
 ```
-<!-- TODO: pytest output -->
+$ python -m pytest -q
+.................................                                        [100%]
+33 passed in 2.84s
 ```
+
+<!-- TODO (builder, by 1:50): re-run in a fresh clone once fetch/clean/stitch are added -->
+
+See [HANDOFF.md](HANDOFF.md) for the data contract between the pipeline and the screens.
 
 ## Sources and assumptions
 
@@ -132,12 +138,13 @@ We query only the OC cities we need through the data.ca.gov datastore API, cache
 
 | Part | Status |
 |---|---|
-| Approval timelines from APR Tables A and A2 | <!-- TODO: working / partly working --> |
-| Match rate, project counts, still-waiting counts | <!-- TODO --> |
-| Receipt math and gap multiplier | working; dollar inputs are ASSUMPTION |
+| The four screens (Timelines, Receipt, Compare, Limitations) | working, currently on **mocked** data: invented "City A (MOCK)" and "City B (MOCK)" in `data/sample/mock_durations.csv` |
+| Approval timelines from APR Tables A and A2 | not built yet (`fetch.py`, `clean.py`, `stitch.py`). Real data appears once `stitch.py` writes `data/processed/durations.csv` |
+| Medians, 90% intervals, sample-size labels, still-waiting counts | working, tested |
+| Receipt math and gap multiplier | working, tested; dollar inputs are ASSUMPTION |
 | Carrying cost and baseline gap | mocked (from the event's synthetic deal) |
-| Claude board memo | <!-- TODO --> |
-| Backup memo shown if the API fails | mocked |
+| Claude board memo and number guard | guard working and tested offline; live memo needs an API key |
+| Backup memo shown if the API fails | not saved yet (`data/sample/memo_backup.md`) |
 
 <!-- TODO (builder, by 12:30): add anything else mocked, e.g. if the fallback was triggered -->
 
