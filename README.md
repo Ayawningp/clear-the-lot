@@ -3,7 +3,7 @@
 > For a nonprofit project manager choosing between two Orange County cities: shows how long each city's approvals really take, from the state's own records, and what that waiting adds to the funding gap per home.
 
 **Team:** <!-- TODO: team name -->
-**Members:** Ashton Peng (builder) · toshi (data pipeline) · <!-- TODO: presenter and other members -->
+**Members:** Ashton Peng  · Toshiki Kobayashi · <!-- TODO: presenter and other members -->
 **Lane:** 2 Clear it
 **Built at:** Claude Impact Lab: UCI × SoCal Affordable Housing, November 7, 2026
 
