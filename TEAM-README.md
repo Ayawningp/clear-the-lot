@@ -122,7 +122,7 @@ See [HANDOFF.md](HANDOFF.md) for the data contract between the pipeline and the 
 | APR Table A2: per-project entitlement, permit and occupancy dates; APN; address; unit type; tenure; unit counts | [data.ca.gov](https://data.ca.gov/dataset/housing-element-annual-progress-report-apr-data-by-jurisdiction-and-year), resource `fe505d9b-8c36-42ba-ba30-08bc4f34e022` | <!-- TODO --> |
 | APR Table A: per-application submitted date, outcome, SB 35 flag | [data.ca.gov](https://data.ca.gov/dataset/housing-element-annual-progress-report-apr-data-by-jurisdiction-and-year), resource `c78b769d-cc02-4050-91ef-79ded665b5a8` | <!-- TODO --> |
 | Dates appear only in the reporting year they happen | [HCD APR instructions](https://www.hcd.ca.gov/sites/default/files/docs/planning-and-community/housing-element-annual-progress-report-instructions.pdf) | <!-- TODO --> |
-| Gap before delay `G0` ≈ $13.6k per home | ASSUMPTION, derived from the event's synthetic example deal (`lanes/3-fund-it/data/synthetic-example-deal.json`) | Nov 7, 2026 |
+| Gap before delay `G0` ≈ $13.6k per home | ASSUMPTION, derived from the event's synthetic example deal ([`synthetic-example-deal.json`](https://github.com/travcjohnson/claude-impact-lab-uci/blob/main/lanes/3-fund-it/data/synthetic-example-deal.json) in the event repo) | Nov 7, 2026 |
 | Carrying cost `c` ≈ $8.1k per home per month | ASSUMPTION, derived from the same synthetic deal | Nov 7, 2026 |
 | Pre-loan carrying cost `c0` | ASSUMPTION, user input | n/a |
 
