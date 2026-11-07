@@ -27,8 +27,8 @@ A Streamlit app with four tabs, running on real state data for every Orange Coun
 | Tab | What it shows |
 |---|---|
 | **Timelines** | For each city and approval stage: median months, 90% confidence interval, number of approvals, sample-size label, and the number of projects still waiting. Overall project count, match rate and data date. |
-| **Receipt** | One city's itemized receipt against a typical Orange County pace (e.g. "Entitlement → building permit: 12.5 months vs 11.0 typical = +1.5 months x $8.1k/month"), with the gap multiplier as the headline. Shown per home and per project. Assumptions are editable in the sidebar. |
-| **Compare** | Two cities side by side ("Choosing Yorba Linda over Laguna Beach saves about $56.2k per home in waiting"), plus a Claude-written board memo. |
+| **Receipt** | An itemized receipt for the slower of your two cities, priced against the faster one's schedule (e.g. "Approval to building permit: 7.3 months longer × $8,100"), with the gap multiplier as the headline (Laguna Beach vs Yorba Linda: 5.1×). Shown per home and per project. Assumptions are editable in the sidebar. |
+| **Compare** | Two cities side by side ("Building in Yorba Linda saves about $56,151 per home in waiting costs"), plus a Claude-written board memo. |
 | **Limitations** | What the data can't tell you, what is real versus assumed, data dates, and links to sources. |
 
 **Demo video:** <!-- TODO: link, or "uploaded on the hub" -->
@@ -65,13 +65,13 @@ A Streamlit app with four tabs, running on real state data for every Orange Coun
 - **Still waiting:** projects that reached a stage but have no next-stage date by the end of 2025. These are labeled "no further activity reported," because the APR doesn't record cancellations. A median over finished projects alone is biased short, since the slowest projects drop out of it.
 - **Same-day dates:** some cities report the same date for two stages. Stages where most dates are same-day are flagged ⚠ and left out of receipts.
 
-**4. Receipt math** (`receipt.py`). The receipt charges only the months a city takes **beyond a typical Orange County pace**: the countywide median over all approval batches for that stage (application → entitlement 4.5 months, n=259; entitlement → building permit 11.0 months, n=278). G0 is the gap at that typical pace. Permit → occupancy is mostly construction time, so it is off by default.
+**4. Receipt math** (`receipt.py`). The receipt charges only the months the slower city takes **beyond the faster city's schedule**, step by step, using only steps where both cities have 10+ approval batches. G0 is the gap on the faster city's schedule. A step where the slower city is quicker shows as a negative line. Permit → occupancy is mostly construction time, so it is off by default. (`receipt.py` can also price a city against the countywide median; `timelines.pooled_baseline` computes it.)
 
 | Symbol | Meaning | Default |
 |---|---|---|
 | `c` | Monthly carrying cost per home once the construction loan is drawn | $8.1k **ASSUMPTION** |
 | `c0` | Monthly carrying cost per home before the loan is drawn | $8.1k (same as `c` until the user enters their own) **ASSUMPTION** |
-| `G0` | Gap per home at a typical OC pace | $13.6k **ASSUMPTION** |
+| `G0` | Gap per home on the faster city's schedule | $13.6k **ASSUMPTION** |
 | `units` | Homes in the project | 6 (user input) |
 
 ```
@@ -125,7 +125,7 @@ extract.py        statewide APR downloads → OC sample, with addresses and APNs
 clean.py          normalize APNs, addresses, dates
 stitch.py         one row per project with stage dates, match_method, conflict and order flags
 timelines.py      approval batches, medians, 90% bootstrap CIs, labels, still-waiting, baseline
-receipt.py        delay cost vs a typical OC pace, gap, multiplier, ASSUMPTION tags
+receipt.py        delay cost vs a baseline schedule, gap, multiplier, ASSUMPTION tags
 memo.py           Claude board memo + number guard + backup fallback
 pipeline.py       end to end: sample → projects → per-city summaries
 app.py            Streamlit: Timelines, Receipt, Compare, Limitations
@@ -173,7 +173,7 @@ Every number we made up is labelled ASSUMPTION here and in the tool.
 - Only projects whose earlier stage was reported in 2018 or later can be timed, which leaves out some of the longest timelines.
 - Some cities report the same date for two stages; those stages are flagged and left out of receipts.
 - Cities with fewer than 10 approval batches show "Insufficient evidence" instead of a median. That is unknown, not fast. Huntington Beach is one of them.
-- A city faster than the county median gets a **negative** delay cost and a multiplier below 1x (Laguna Beach's default receipt shows 0.6x, because its application → entitlement stage is fast).
+- A step where the slower city is quicker counts as a **negative** line (Laguna Beach is 0.4 months faster than Yorba Linda from application to approval), which partly offsets its longer permit step.
 - All dollar figures come from **one synthetic deal**. Don't use them for a real budget.
 
 ## Next steps
