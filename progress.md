@@ -103,13 +103,22 @@ Wait is from the last approved entitlement on the parcel to building permit issu
 `portal_master.py` also writes both waits onto each row of the master file: `days_apply_to_approval`
 on plan rows and `days_approval_to_permit` on housing permit rows.
 
-- **Application to approval:** a median of 2.4 months across 969 approved entitlements. Design review
-  2.3 (576), coastal development permit 2.4 (233), variance 2.8 (78), conditional use permit 1.4 (39),
-  ADU review 3.7 (33). The APR gives 2.3 months for Laguna Beach.
+- **The master file is housing only.** It keeps housing permits (new single-family, ADU, new mixed
+  use) and entitlement-type plans, and only at sites that have at least one housing record: 1,119
+  records at 453 sites, down from 19,308 records at 5,288 sites. Reroofs, electrical, plumbing,
+  remodels, additions and plan checks are dropped. ASSUMPTION: this is our reading of "housing
+  relevant". Known gap: an entitlement for a new home with no building permit application yet can't
+  be told apart from design review for a deck, so it is dropped until the permit appears.
+- **Application to approval, all entitlements in the pull:** a median of 2.4 months across 969
+  approved entitlements. Design review 2.3 (576), coastal development permit 2.4 (233), variance 2.8
+  (78), conditional use permit 1.4 (39), ADU review 3.7 (33). The APR gives 2.3 months for Laguna
+  Beach.
+- **Application to approval, housing sites only (what the master file holds):** 2.6 months across
+  405 approved entitlements.
 - **Approval to permit, matched by site:** 8.3 months across 118 issued housing permits. The link
   file above matches by parcel only and finds 117.
-- **Dates out of order:** 65 plans have a completed date before their applied date, 4 of them
-  entitlements. They are left in the file. The cause is unknown.
+- **Dates out of order:** in the full pull, 65 plans have a completed date before their applied
+  date, 4 of them entitlements. They are not corrected. The cause is unknown.
 
 ## Assumptions
 
@@ -136,10 +145,11 @@ All of these are the team's choices, marked `ASSUMPTION` in the code and in
 - **Addresses and parcels don't always agree.** 147 addresses map to more than one parcel and 112
   parcels to more than one address. Likely reasons are ADUs with their own address, lot splits and
   condos, but we can't verify that from hashed data.
-- **Some merged sites may be wrong.** The master file groups 19,308 records into 5,288 sites. 145
-  sites join more than one address or parcel. The largest joins 8 addresses and 35 parcels, and four
-  others join 19 to 27 keys. These could be real developments or unrelated properties chained by one
-  wrong parcel number. Check any site with a high `site_addresses` or `site_parcels` count.
+- **Some merged sites may be wrong.** Across the full pull, 145 of 5,288 sites join more than one
+  address or parcel, and the largest joins 8 addresses and 35 parcels. Those large sites have no
+  housing records, so they are not in the housing-only master file, where 22 sites join more than one
+  key and none joins more than 2 addresses and 2 parcels. A wrong parcel number can still chain two
+  unrelated properties.
 - **The link and the master file group differently.** `portal_link.py` joins on parcel only and does
   not use the merged sites yet.
 - **Small samples.** 23 issued new-home permits is not enough to rank a city.

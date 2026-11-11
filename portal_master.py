@@ -9,8 +9,19 @@ example a large multi-unit parcel or a wrongly entered parcel number chaining si
 together; `site_addresses` and `site_parcels` show how many keys each site joined, so big
 ones can be checked.
 
+Housing only. The file keeps a record when BOTH are true:
+  * its site has at least one housing record: a permit whose type is in `housing_permit_types`
+    or a plan whose type starts with one of `housing_plan_type_prefixes` (cities.json);
+  * the record itself is a housing permit or an entitlement-type plan (any status, so
+    applications still in process stay visible).
+Reroofs, electrical, plumbing, remodels, additions, plan checks and every record at a site with
+no housing record are dropped. ASSUMPTION: this is the team's reading of "housing relevant".
+Known gap: an entitlement for a new home whose building permit has not been applied for yet
+looks the same as design review for a deck, so it is dropped until the permit appears. The
+unfiltered records stay in the plans and permits CSVs.
+
 One row per portal record. Rows are sorted by site, then by applied date. `site_seq` numbers
-the records at a site in that order and `site_records` is how many it has. All keys are
+the records at a site in that order and `site_records` is how many it has in this file. All keys are
 one-way hashes; no address or parcel number is stored. Records the portal lists with neither
 an address nor a parcel keep a blank site key and sort last.
 
@@ -95,6 +106,27 @@ def site_keys(rows: list[dict]) -> dict:
     return {k: find(k) for k in parent}
 
 
+def housing_only(rows: list[dict], city: dict) -> list[dict]:
+    """Keep housing permits and entitlement-type plans at sites that have a housing record."""
+    permit_types = set(city["housing_permit_types"])
+    plan_housing = tuple(city.get("housing_plan_type_prefixes", []))
+    ent_prefixes = tuple(city["entitlement_plan_type_prefixes"])
+    skip_classes = set(city["entitlement_exclude_work_classes"])
+
+    def housing_record(r):
+        if r["module"] == "permits":
+            return r["case_type"] in permit_types
+        return bool(plan_housing) and r["case_type"].startswith(plan_housing)
+
+    def keep(r):
+        if r["module"] == "permits":
+            return r["case_type"] in permit_types
+        return r["case_type"].startswith(ent_prefixes) and r["work_class"] not in skip_classes
+
+    sites = {r["site_key"] for r in rows if r["site_key"] and housing_record(r)}
+    return [r for r in rows if r["site_key"] in sites and keep(r)]
+
+
 def build(plans: list[dict], permits: list[dict], city: dict, today: dt.date) -> list[dict]:
     rows = plans + permits
     root = site_keys(rows)
@@ -107,6 +139,8 @@ def build(plans: list[dict], permits: list[dict], city: dict, today: dt.date) ->
         if r["apn_key"]:
             parcels[r["site_key"]].add(r["apn_key"])
     add_durations(rows, city, today)
+    rows = housing_only(rows, city)
+    counts = Counter(r["site_key"] for r in rows)
     rows.sort(key=lambda r: (r["site_key"] == "", r["site_key"], r["applied"], r["module"]))
     out, seq, prev = [], 0, None
     for r in rows:
@@ -136,7 +170,7 @@ if __name__ == "__main__":
             & {r["site_key"] for r in keyed if r["module"] == "permits"})
     merged = [r for r in sites.values() if r["site_addresses"] > 1 or r["site_parcels"] > 1]
     big = max(sites.values(), key=lambda r: r["site_addresses"] + r["site_parcels"])
-    print(f"{city['name']}: {len(rows)} records at {len(sites)} sites "
+    print(f"{city['name']}: {len(rows)} housing records at {len(sites)} sites "
           f"({len(both)} have both a plan and a permit; {len(rows) - len(keyed)} records have no key)")
     print(f"{len(merged)} sites join more than one address or parcel; the largest joins "
           f"{big['site_addresses']} addresses and {big['site_parcels']} parcels ({big['site_records']} records)")

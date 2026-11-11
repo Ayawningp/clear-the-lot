@@ -42,6 +42,11 @@
       "Commercial - New Mixed Use",
       "Building - Residential - Second Residential Unit"
     ],
+    "housing_plan_type_prefixes": [
+      "Accessory Dwelling Units (ADUs)",
+      "Second Residential Unit",
+      "Senate Bill 9 Parcel Map"
+    ],
     "assumption_note": "ASSUMPTION (team, 2026-11-10, not reviewed by a planner): the lists below were chosen from the type and status names the portal returned for 2023-01 to 2026-10. 'Residential Planning Entitlements' is left out because its only work class is 'Zoning Plan Check', which looks like a review step inside the building permit, not a land use approval; that reading is unconfirmed.",
     "permit_dead_statuses": [
       "Void",
