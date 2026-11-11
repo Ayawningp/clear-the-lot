@@ -1,0 +1,54 @@
+{
+  "_readme": "One entry per city permit portal. To add a Tyler EnerGov city: copy an entry, change base_url, pull one month with --list-types, then fill the type lists. Every type list here is an ASSUMPTION made by the team, not a city or HCD definition; have a planner review it.",
+  "laguna_beach": {
+    "name": "Laguna Beach",
+    "platform": "energov",
+    "base_url": "https://lagunabeachca-energovweb.tylerhost.net/apps/selfservice",
+    "source_checked": "2026-11-10",
+    "source_notes": "Public Citizen Self Service search, no login. No robots.txt (404) and no terms of use found on 2026-11-10. The link from the city's own website has NOT yet been confirmed by a person.",
+    "delay_seconds": 8,
+    "entitlement_plan_type_prefixes": [
+      "Design Review - ",
+      "Coastal Development Permit - ",
+      "Plan - Coastal Development Permit",
+      "Variance - ",
+      "Conditional Use Permit - ",
+      "Accessory Dwelling Units (ADUs)",
+      "Second Residential Unit",
+      "Senate Bill 9 Parcel Map",
+      "Parcel Map"
+    ],
+    "entitlement_exclude_work_classes": [
+      "Exemption",
+      "CDP Waiver",
+      "De Minimis Waiver ",
+      "N/A (DO NOT USE)"
+    ],
+    "entitlement_approved_statuses": [
+      "Approved",
+      "Completed",
+      "Cleared",
+      "Cleared, subject to requirements"
+    ],
+    "housing_permit_types": [
+      "Residential - New Single Family Residence",
+      "Residential - ADU Attached",
+      "Residential - ADU Detached",
+      "Multifamily - ADU - Attached",
+      "Multifamily - ADU - Detached",
+      "Commercial - ADU Attached",
+      "Commercial - ADU Detached",
+      "Mixed Use - New Mixed Use",
+      "Commercial - New Mixed Use",
+      "Building - Residential - Second Residential Unit"
+    ],
+    "assumption_note": "ASSUMPTION (team, 2026-11-10, not reviewed by a planner): the lists below were chosen from the type and status names the portal returned for 2023-01 to 2026-10. 'Residential Planning Entitlements' is left out because its only work class is 'Zoning Plan Check', which looks like a review step inside the building permit, not a land use approval; that reading is unconfirmed.",
+    "permit_dead_statuses": [
+      "Void",
+      "Cancelled",
+      "Withdrawn",
+      "Reference Only",
+      "Revoked"
+    ]
+  }
+}

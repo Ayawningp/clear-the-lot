@@ -181,6 +181,18 @@ Every number we made up is labelled ASSUMPTION here and in the tool.
 - **Next month:** a nonprofit could use the Timelines tab as-is to set expectations with its board, replacing the synthetic dollar inputs with its own carrying cost and gap.
 - **One more week:** raise the match rate (fuzzy address matching, using unit counts to link phased permits); extend to every California county, since every city files an APR; add a Kaplan-Meier estimate that treats still-waiting projects as censored; check the stitched timelines against a few cities' own permit records.
 
+## Experiment: city permit portal scraper (not part of the app yet)
+
+`energov.py` pulls plan (entitlement) and permit records from a city's public Tyler EnerGov Citizen Self Service search, one month at a time, and `portal_link.py` links entitlement approvals to housing building permits on the same parcel. Cities are configured in `data/portal/cities.json`.
+
+- **Source:** Laguna Beach public portal, <https://lagunabeachca-energovweb.tylerhost.net/apps/selfservice>, checked November 10, 2026. No login. No `robots.txt` and no terms of use were found; **a person still needs to confirm the link from the city's own website and check terms before any larger pull.**
+- **Pulled:** records applied January 2023 to October 2026: 9,825 plans and 9,483 permits, in about 270 requests. At one request every 4 seconds the portal reset the connection after about 50 requests; at one every 8 seconds the rest completed.
+- **Run:** `python energov.py --city laguna_beach --start 2023-01 --end 2026-10 --list-types`, then `python portal_link.py --city laguna_beach`. Finished months are cached, so re-runs do not re-request them.
+- **Master file:** `python portal_master.py --city laguna_beach` merges plans and permits into `data/portal/laguna_beach_master.csv`, one timeline per site (19,308 records at 5,288 sites). ASSUMPTION: a site is every address and parcel that any record connects; a few large merged sites may be wrong. Full write-up in `progress.md`.
+- **ASSUMPTION:** which plan types count as entitlements, which statuses count as approved, and which permit types count as housing are the team's choices from the portal's type names, not city or HCD definitions (see `assumption_note` in `cities.json`). The entitlement date is the plan record's `completed` date; what the city means by it is unknown. Nothing in the search results says which entitlement belongs to which permit, so the link is by parcel and can pick up an unrelated approval.
+- **Where it gets things wrong:** 236 of 452 housing permits found no entitlement (cause unknown: possibly approved before 2023, ministerial, or a parcel mismatch). Medians cover only permits already issued, so they are biased short. Not comparable to the APR numbers without review.
+- **Privacy:** parcel numbers and addresses are hashed the same way as the APR sample; permit numbers, project names and descriptions are never saved.
+
 ## Data and privacy
 
 This project uses only public data. It contains no personal information about real tenants, buyers or residents. The APR includes project addresses and parcel numbers, so before anything is committed we replace APNs and street addresses with one-way hashes and drop project names, notes, geocoded addresses and city permit numbers. The tool shows only counts and city-level results, never individual projects. It does not file applications or contact any city or person.

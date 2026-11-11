@@ -1,6 +1,8 @@
 # Plan: Permit Wait Leaderboard
 
-**Status:** future plan, not built. Written November 7, 2026.
+**Status:** future plan, mostly not built. Written November 7, 2026. Updated November 10, 2026:
+a first city permit portal scraper works for Laguna Beach (see
+[Second source: city permit portals](#second-source-city-permit-portals) and `progress.md`).
 
 **Vision:** a public website, refreshed weekly, that ranks California cities by how long housing
 permits take. It starts in Orange County and uses the state's Annual Progress Report (APR) data.
@@ -97,6 +99,41 @@ stage. That date is the first completed home, not the finished project. Keep bot
    the reporting year, and future dates. Today's same-day check only catches exactly 0 months, so it
    misses cases like San Juan Capistrano's 0.4 months.
 
+## Second source: city permit portals
+
+Added November 10, 2026. Details, results and limits are in `progress.md`.
+
+**What changed:** we can now pull a city's own permit and planning records. `energov.py` reads
+Laguna Beach's public Tyler EnerGov portal [6], `portal_link.py` links entitlement approvals to
+housing building permits, and `portal_master.py` merges both into one timeline per site.
+
+**Why it matters for this plan:**
+
+| Problem in this plan | What the portal adds | Limit |
+|---|---|---|
+| The APR arrives up to 15 months late | Portal records are current, and each has a status | We have not checked how quickly the city updates them |
+| The APR can't tell which projects are stalled | Permits not yet issued are visible, with their status | The portal has no reason for a delay |
+| Only 8.6% of stitched projects join to an application date | Every record has an applied date | What "applied" means there is unknown; the team will decide how to treat it |
+| We planned to check stitched timelines against city records (Phase 4) | The portal uses the same parcel hash as the APR sample, so the two can be joined | Not done yet |
+| Each city defines "complete" differently | Permits carry separate issued and finaled dates | The search results don't show certificates of occupancy |
+
+**First result:** for Laguna Beach permits applied January 2023 to October 2026, the median wait from
+last entitlement to building permit is 8.4 months across 117 linked housing permits (middle half 5.6
+to 14.2), and 12.6 months for 23 new single-family homes. The APR figure below is 12.5 months. The
+samples are small and are not the same projects, so this is a first comparison, not a confirmation.
+
+**ASSUMPTION:** which plan types count as entitlements and which permits count as housing are our
+choices from the portal's type names, listed in `data/portal/cities.json`. A planner has not reviewed
+them. 236 of 452 housing permits found no entitlement, and the cause is unknown.
+
+**What this does not change:** the APR stays the statewide source. Portals are city by city, each
+needs its own type lists, and we have run only one. A portal number should not go on the leaderboard
+until the definitions are reviewed and the city's terms are checked.
+
+**Rules for pulling:** one request every 8 seconds for Laguna Beach (at 4 seconds the portal reset the
+connection after about 50 requests), every finished month cached, and stop on any block. A person
+still needs to confirm the portal link on the city's website and check its terms of use.
+
 ## Leaderboard rules
 
 Today's permit-wait results, owner-occupied, 1-200 units, approval batches:
@@ -173,7 +210,7 @@ Each phase ends with a check, so we don't build more than the evidence supports.
 | **1. Standard and flags** | Review the definitions with a planner. Add first and last dates, the definitions file and automatic flags, with tests. | Every Orange County city has a flag summary and a definition label, even if it's `unknown`. |
 | **2. Ranking** | Add Kaplan-Meier, tiers and the ministerial split. Compare results before and after. | Rankings hold up when the method changes slightly, or the instability is shown. |
 | **3. Orange County site** | Add the weekly job, static site, methods page, dispute page and change log. | The site runs unattended for 4 weeks, and one failed validation is caught correctly. |
-| **4. Validate with users** | Show it to a nonprofit and a city. Check stitched timelines against a few cities' own records, with permission. | A real user says they would use it, and we know the error rate. |
+| **4. Validate with users** | Show it to a nonprofit and a city. Check stitched timelines against a few cities' own records, with permission. **Started November 10, 2026:** Laguna Beach portal records are pulled and linked, but not yet joined to the APR sample. | A real user says they would use it, and we know the error rate. |
 | **5. Go statewide** | Run every county, which is the same data file, and add county views. | Flags and labels scale without checking every city by hand. |
 
 ## Decisions for the team
@@ -186,6 +223,8 @@ Each phase ends with a check, so we don't build more than the evidence supports.
 | Which unit count filter? | Keep 1-200 for now | It's the current app default. Test sensitivity in Phase 2. |
 | Is it a "worst cities" list? | Lead with the wait times, and also show the fastest cities and biggest improvers | Cities are more likely to engage, and it shows what's achievable. |
 | Who owns the definitions? | Name one person, and have a planner review | Someone has to keep these judgment calls current. |
+| How do we use portal data? | As a cross-check and a freshness signal first, not as the ranking | One city, unreviewed type lists, and half of housing permits unlinked. |
+| Which city portal is next? | A second Tyler EnerGov city in Orange County | It tests how much of the scraper carries over. Which cities use EnerGov is not yet listed. |
 
 ## Small fix to make next
 
@@ -202,3 +241,4 @@ All checked November 7, 2026.
 3. [HCD 2025 APR webinar slides](https://www.hcd.ca.gov/sites/default/files/docs/planning-and-community/2025-apr-webinar-slides.pdf) (PDF dated December 30, 2025): timeline on slide 4, revisions on slide 12.
 4. [APR Table A2 data dictionary](https://publish.data.ca.gov/dataset/81b0841f-2802-403e-b48e-2ef4b751f77c/resource/354a375a-821d-4d4e-97ab-4d79c2925fce/download/annualprogressreport_tablea2_datadictionary-2.docx) (last updated October 1, 2026): `CO_ISSUE_DT1` and `NO_OTHER_FORMS_OF_READINESS`.
 5. Orange County figures: computed from `data/sample/oc_tablea2.csv` and `pipeline.build(1, 200)`, using the data downloaded on November 7, 2026.
+6. [Laguna Beach Citizen Self Service portal](https://lagunabeachca-energovweb.tylerhost.net/apps/selfservice) (Tyler EnerGov), checked November 10, 2026: public permit and plan search, no login. No `robots.txt` or terms of use found. Figures computed from `data/portal/laguna_beach_*.csv` with `portal_link.py`.

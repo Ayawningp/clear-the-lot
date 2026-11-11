@@ -1,0 +1,453 @@
+permit_key,permit_type,parcel_key,outcome,n_entitlements,entitlement_types,ent_first,ent_last,permit_applied,permit_issued,days_last_ent_to_issue,days_first_ent_to_issue,days_waiting_so_far
+6fe342820b6432fa,Commercial - ADU Attached,962068382720534166,no entitlement found,0,,,,2023-01-18,2023-04-20,,,
+0211ac738fef959a,Residential - ADU Attached,881260421459765723,no entitlement found,0,,,,2023-01-03,,,,
+9147f2a31111a857,Residential - ADU Attached,72535347569922575,no entitlement found,0,,,,2023-01-05,2023-01-24,,,
+73c869af3ca05dc7,Residential - ADU Detached,379912667010313323,no entitlement found,0,,,,2023-01-10,2023-01-10,,,
+542b60b20d20ccf7,Residential - ADU Attached,289132524189439145,no entitlement found,0,,,,2023-01-24,2023-03-15,,,
+bacbf5e508432142,Residential - ADU Attached,16267552912943856,no entitlement found,0,,,,2023-01-26,2023-03-14,,,
+c8d99a699a4b3f38,Residential - ADU Attached,788498123524426013,no entitlement found,0,,,,2023-01-30,2023-10-03,,,
+39efd88329753af0,Residential - ADU Attached,25946932220617917,no entitlement found,0,,,,2023-02-03,2023-07-17,,,
+d263dfc619b2805d,Residential - ADU Attached,26941331967983444,no entitlement found,0,,,,2023-02-17,2023-05-02,,,
+08c14000bc72ef53,Residential - ADU Attached,432035785731733511,no entitlement found,0,,,,2023-02-23,2023-04-26,,,
+7412e74affb2d856,Residential - ADU Attached,961127641481515469,no entitlement found,0,,,,2023-02-27,2023-06-21,,,
+100d4006b14e54f4,Residential - ADU Attached,13341972108371454,no entitlement found,0,,,,2023-02-27,2023-05-04,,,
+9c963f3e1aa10f63,Residential - ADU Attached,364595711364048536,no entitlement found,0,,,,2023-02-28,2023-04-28,,,
+c97b1d269a042976,Residential - ADU Attached,687533231213122979,no entitlement found,0,,,,2023-03-02,2023-03-02,,,
+8288cd1396b901c0,Residential - ADU Attached,932722602942849677,no entitlement found,0,,,,2023-03-06,2023-07-07,,,
+e68a0675df168bf2,Residential - ADU Attached,169327864783291273,no entitlement found,0,,,,2023-03-13,,,,
+ece1eaf64636e33f,Residential - ADU Attached,311482487553890643,no entitlement found,0,,,,2023-03-15,2024-09-04,,,
+ad3a47975a796d5d,Residential - ADU Attached,1076069171086819276,no entitlement found,0,,,,2023-03-15,2023-06-28,,,
+77b237c1a701e4de,Residential - ADU Attached,472531193297792894,no entitlement found,0,,,,2023-03-16,,,,
+10ca82771ce61e3e,Residential - ADU Attached,1123917619868410946,no entitlement found,0,,,,2023-03-29,,,,
+e771e55dd860c602,Residential - ADU Detached,142135487094244116,no entitlement found,0,,,,2023-03-30,2023-05-26,,,
+ff985249cbdba262,Commercial - ADU Attached,327435331431045837,no entitlement found,0,,,,2023-04-14,2023-04-14,,,
+24f027ba81a70cfa,Residential - ADU Attached,1063835086335986153,no permit issued yet,1,Design Review - Administrative,2026-06-03,2026-06-03,2023-04-04,,,,160
+9077ffd8bbbbd7a1,Residential - ADU Detached,68003044134671909,no entitlement found,0,,,,2023-04-06,2023-04-20,,,
+51f97292025245f0,Residential - ADU Attached,1020152973333176229,issued,1,Design Review - Administrative,2023-03-22,2023-03-22,2023-04-17,2023-10-04,196,196,
+5ca650beb157ae76,Residential - ADU Detached,31566745620019619,no entitlement found,0,,,,2023-04-19,2023-06-29,,,
+67088bd58d183f35,Residential - ADU Detached,257148578105368720,no entitlement found,0,,,,2023-04-20,2023-12-12,,,
+ebc9a235394d0bc2,Residential - ADU Attached,255102828458191311,no entitlement found,0,,,,2023-04-20,2023-07-13,,,
+980c84f3ca026d45,Residential - New Single Family Residence,66886813993815545,no entitlement found,0,,,,2023-05-06,,,,
+be783085991b818c,Residential - New Single Family Residence,351551253249115608,no entitlement found,0,,,,2023-05-09,2023-11-27,,,
+102b464240cb0017,Residential - ADU Attached,351551253249115608,no entitlement found,0,,,,2023-05-09,2023-11-27,,,
+3124317b5cf43265,Residential - ADU Attached,688718034613401831,no entitlement found,0,,,,2023-05-11,2024-01-22,,,
+24dd9c503796d463,Residential - ADU Attached,415887087555987844,issued,1,Design Review - Administrative,2023-04-05,2023-04-05,2023-05-12,2023-09-12,160,160,
+e53f7cc916f3402a,Residential - ADU Detached,349924399424889165,no entitlement found,0,,,,2023-05-15,2024-10-02,,,
+df60917853c52843,Residential - ADU Attached,950096699467782538,no entitlement found,0,,,,2023-05-22,2023-05-23,,,
+4792a95300838d1b,Residential - ADU Attached,1109434660375817319,no entitlement found,0,,,,2023-05-22,2025-02-12,,,
+27fa33d2fd47daba,Residential - New Single Family Residence,561015459198463638,no entitlement found,0,,,,2023-05-23,2023-05-23,,,
+0586682fb747081d,Residential - ADU Attached,567488948280607220,no entitlement found,0,,,,2023-05-25,2023-08-18,,,
+10746bb6d42e2954,Residential - ADU Attached,1123481839350276003,no entitlement found,0,,,,2023-05-25,2023-11-08,,,
+a3b66e7ce2f980eb,Residential - ADU Attached,1116556989952550070,no entitlement found,0,,,,2023-05-26,2023-09-13,,,
+57c255c407171b1a,Residential - ADU Detached,534110279323313602,issued,1,Coastal Development Permit - Design Review,2023-09-28,2023-09-28,2023-05-26,2023-11-01,34,34,
+5a0279e9f870e4bc,Residential - ADU Attached,525163916284578180,no entitlement found,0,,,,2023-05-30,2024-03-05,,,
+e1dd2157468761d5,Commercial - ADU Attached,1040883061454032354,issued,1,Design Review - Administrative,2024-09-11,2024-09-11,2023-06-20,2024-09-26,15,15,
+4ba1f3e96aaf3729,Residential - ADU Attached,375777308815773121,no entitlement found,0,,,,2023-06-06,,,,
+cd4a8cb01835cc63,Residential - New Single Family Residence,1113869976678109876,no entitlement found,0,,,,2023-06-07,2023-06-29,,,
+045d12c48d08a32c,Residential - ADU Attached,855839246708564597,no entitlement found,0,,,,2023-06-08,2023-06-09,,,
+6198331752f40be1,Residential - ADU Attached,480910905527733662,no entitlement found,0,,,,2023-06-13,2023-12-19,,,
+b75b6daccc5a9ef2,Residential - New Single Family Residence,539828994045097842,no entitlement found,0,,,,2023-06-20,2024-01-23,,,
+56ea7f25061d72ef,Residential - ADU Detached,504804692216693872,no entitlement found,0,,,,2023-06-20,2023-12-04,,,
+407ee4efc3e22a76,Residential - ADU Detached,1143114756459669572,no entitlement found,0,,,,2023-06-20,,,,
+2e1b2ca305670826,Residential - ADU Detached,1035966675473094041,no entitlement found,0,,,,2023-06-21,2024-10-30,,,
+2cd3542812d7749b,Building - Residential - Second Residential Unit,883106686294463746,no entitlement found,0,,,,2023-06-22,2023-06-22,,,
+f4e8c32fcb684a0c,Residential - ADU Attached,76626253792493743,no entitlement found,0,,,,2023-06-23,2023-06-23,,,
+e46978758fa5efaa,Residential - ADU Attached,73439959291641686,no entitlement found,0,,,,2023-06-28,,,,
+294d347517b287fa,Residential - ADU Detached,273292061052755588,no entitlement found,0,,,,2023-06-28,2023-10-13,,,
+9487a14262d619e1,Residential - New Single Family Residence,1144963592837371903,no entitlement found,0,,,,2023-06-28,2024-03-28,,,
+8087513dc995444a,Residential - ADU Attached,19046208367235560,no entitlement found,0,,,,2023-07-03,2023-07-03,,,
+aedf68f841a6460b,Residential - ADU Attached,696475820882819278,no entitlement found,0,,,,2023-07-05,2023-09-14,,,
+637fb2105b62644e,Residential - ADU Attached,434264859435245601,no entitlement found,0,,,,2023-07-06,2024-06-20,,,
+c2c17252ac8d3867,Residential - New Single Family Residence,1056456662855370221,issued,1,Design Review - DRB Staff-Assisted Design Review (DO NOT USE),2023-02-23,2023-02-23,2023-07-18,2024-01-10,321,321,
+d1b92673d42d8f94,Residential - New Single Family Residence,226403592481202023,issued,2,Coastal Development Permit - Design Review; Design Review - DRB Staff-Assisted Design Review (DO NOT USE),2023-04-13,2023-04-13,2023-07-21,2024-04-11,364,364,
+248694bcb75fc9c7,Residential - ADU Attached,718797936017926326,no entitlement found,0,,,,2023-07-24,2024-05-14,,,
+b87058306eb173b1,Residential - ADU Detached,1112731941766417773,no entitlement found,0,,,,2023-07-26,2025-05-01,,,
+d538c9b1f940aea0,Residential - ADU Attached,904530640490606121,no entitlement found,0,,,,2023-07-27,2023-11-01,,,
+cd0eb2876c6ed171,Residential - ADU Detached,120288736891870964,issued,2,Coastal Development Permit - Administrative/Emergency,2023-05-03,2023-10-11,2023-07-27,2023-12-21,71,232,
+c70c1e6ff23bd74c,Commercial - ADU Attached,197613648885197678,no entitlement found,0,,,,2023-08-18,2023-09-13,,,
+e07eb1ef03a7aaee,Residential - ADU Detached,947298291297286023,no entitlement found,0,,,,2023-08-02,2023-08-02,,,
+6e4f864ff89a244e,Residential - ADU Attached,48583497568636052,issued,1,Design Review - DRB Staff-Assisted Design Review (DO NOT USE),2023-04-27,2023-04-27,2023-08-04,2023-12-22,239,239,
+54e5321660d4ead6,Residential - ADU Detached,804312835545082506,no entitlement found,0,,,,2023-08-07,2024-04-30,,,
+a9bb7a8afe424a43,Residential - ADU Detached,206694682818026924,no entitlement found,0,,,,2023-08-07,2024-04-11,,,
+af8537edebf00609,Residential - ADU Attached,1115591105300453974,issued,1,Second Residential Unit,2023-05-03,2023-05-03,2023-08-09,2024-01-04,246,246,
+f774d53966e36404,Residential - ADU Attached,69243552490891541,no entitlement found,0,,,,2023-08-10,2023-09-01,,,
+a88bc3b8c0645019,Residential - New Single Family Residence,347703159011659667,no entitlement found,0,,,,2023-08-10,2024-05-13,,,
+a1a7a852ac8d334d,Residential - ADU Attached,347703159011659667,no entitlement found,0,,,,2023-08-10,2024-05-13,,,
+0fe1eb2a593bdf48,Residential - ADU Attached,1024009965987060332,no entitlement found,0,,,,2023-08-16,2024-04-10,,,
+3173eaf80aade926,Residential - ADU Attached,63707819954827986,no entitlement found,0,,,,2023-08-17,2023-09-20,,,
+4c78e8ed09377518,Residential - ADU Attached,1142789482857237342,no entitlement found,0,,,,2023-08-18,2024-09-04,,,
+c15b6303120ddcea,Residential - ADU Detached,323485580550290422,issued,1,Design Review - DRB Staff-Assisted Design Review (DO NOT USE),2023-05-11,2023-05-11,2023-08-22,2023-11-02,175,175,
+807103d73372ee75,Residential - ADU Attached,985803295645472483,no entitlement found,0,,,,2023-08-24,2024-02-02,,,
+e6957e62577b7e3b,Residential - ADU Attached,592730141781242699,no entitlement found,0,,,,2023-08-28,2024-10-21,,,
+957cad74ddb64f15,Residential - ADU Attached,47200950378971532,no entitlement found,0,,,,2023-08-28,2024-07-18,,,
+c97ca7dd99ad4b87,Residential - ADU Attached,93029514627572583,no entitlement found,0,,,,2023-08-28,2023-09-05,,,
+09b7e429b1fd439f,Residential - New Single Family Residence,10218652467043776,issued,2,Coastal Development Permit - Design Review; Design Review - DRB Staff-Assisted Design Review (DO NOT USE),2023-05-11,2023-05-11,2023-08-30,2026-06-24,1140,1140,
+a1585c1a63902a5d,Residential - ADU Detached,498714514476606986,no entitlement found,0,,,,2023-08-31,2025-02-04,,,
+f706c3ced9590fef,Residential - ADU Attached,946461976761438857,no entitlement found,0,,,,2023-08-31,2024-03-06,,,
+0f900d4e898563c0,Commercial - ADU Attached,178826235474956482,no entitlement found,0,,,,2023-09-12,2024-01-02,,,
+78f5c12443d14971,Commercial - ADU Attached,178826235474956482,no entitlement found,0,,,,2023-09-12,2024-01-02,,,
+20f46dc6efd8c440,Residential - New Single Family Residence,612911416696728034,no entitlement found,0,,,,2023-09-12,2024-03-20,,,
+36aa4231e0a733bd,Residential - ADU Attached,612911416696728034,no entitlement found,0,,,,2023-09-12,2024-03-20,,,
+4a3ec790e77e8f4d,Residential - ADU Detached,161477638468351227,no entitlement found,0,,,,2023-09-14,2023-09-14,,,
+226b69ca61ba2862,Residential - ADU Detached,470272078556387065,no entitlement found,0,,,,2023-09-14,2023-09-14,,,
+4e37d37f52a11b71,Residential - ADU Attached,880033979648847745,no entitlement found,0,,,,2023-09-20,,,,
+602318b5705decb4,Residential - New Single Family Residence,1042415580214311130,issued,1,Design Review - DRB Staff-Assisted Design Review (DO NOT USE),2023-07-13,2023-07-13,2023-09-20,2024-06-18,341,341,
+c1fec3a819428383,Residential - New Single Family Residence,357766638765189492,no entitlement found,0,,,,2023-09-25,2024-07-02,,,
+0707c9b6c9f74fb5,Residential - ADU Attached,357766638765189492,no entitlement found,0,,,,2023-09-25,2024-07-02,,,
+75a90fedd163f81d,Residential - ADU Detached,461948162946639792,no entitlement found,0,,,,2023-09-28,2023-09-28,,,
+594520cccb4b3f76,Residential - ADU Detached,847537884504964285,no entitlement found,0,,,,2023-09-28,2023-10-26,,,
+07e0ab1555261968,Residential - ADU Attached,220551549486886499,no entitlement found,0,,,,2023-09-28,2024-04-03,,,
+5410d451073170ca,Residential - ADU Detached,220551549486886499,no entitlement found,0,,,,2023-09-28,2024-04-03,,,
+a7cd4e15ce2fe85d,Residential - ADU Detached,282605537158112249,no entitlement found,0,,,,2023-09-29,2023-10-09,,,
+8e108c81d8c8c50d,Residential - ADU Detached,308794210473964103,no entitlement found,0,,,,2023-10-03,2023-10-03,,,
+01e5799a4e54aaf4,Residential - ADU Attached,701788518898566055,no entitlement found,0,,,,2023-10-04,2024-02-21,,,
+1a2ce34a0c0095bc,Residential - ADU Attached,834506214586850414,no entitlement found,0,,,,2023-10-10,2023-10-24,,,
+1cb9e7fe37966b54,Residential - New Single Family Residence,657558142707750307,no entitlement found,0,,,,2023-10-12,2024-12-16,,,
+086eba3dfdbaea53,Residential - ADU Attached,657558142707750307,no entitlement found,0,,,,2023-10-12,2024-12-16,,,
+0fa21fd8422bb2c6,Residential - ADU Detached,514287493186472213,no entitlement found,0,,,,2023-10-13,,,,
+6e5337dd34060d88,Residential - ADU Detached,952926829848684164,no entitlement found,0,,,,2023-10-16,2025-12-10,,,
+5c506beea8a94080,Residential - ADU Attached,377201921682491558,no entitlement found,0,,,,2023-10-19,2023-11-02,,,
+bb76226bf1c0aa97,Residential - ADU Attached,500210415269629020,no entitlement found,0,,,,2023-10-19,2023-10-19,,,
+0d3f1785f69a2a2e,Residential - ADU Attached,195432713401836009,no entitlement found,0,,,,2023-10-24,2023-10-24,,,
+84464dee8cac778f,Residential - New Single Family Residence,691156567772264,no entitlement found,0,,,,2023-10-27,2023-10-27,,,
+c9c1ef4e73047f4e,Residential - New Single Family Residence,128833281883496339,no entitlement found,0,,,,2023-10-31,2023-11-16,,,
+0ca644c379f6b814,Commercial - ADU Detached,284663787714271688,issued,2,Coastal Development Permit - Administrative/Emergency; Design Review - Administrative,2023-11-08,2023-11-08,2023-11-16,2024-06-27,232,232,
+e103d7564413732f,Residential - ADU Attached,128833281883496339,no entitlement found,0,,,,2023-11-06,2023-11-16,,,
+71649c40b0e5f72b,Residential - ADU Detached,1052974452894699708,no entitlement found,0,,,,2023-11-07,2023-11-07,,,
+60bcfb1db18b8656,Residential - ADU Attached,780252227156163641,no entitlement found,0,,,,2023-11-07,2024-06-26,,,
+68f38b4ec360d1ac,Residential - ADU Detached,743668461980564318,no entitlement found,0,,,,2023-11-13,2024-01-18,,,
+613661bf29a9bfa5,Residential - ADU Attached,881449738962660652,issued,3,Coastal Development Permit - Administrative/Emergency; Design Review - Administrative; Design Review - DRB Design Review,2023-07-13,2023-11-15,2023-11-14,2024-05-10,177,302,
+93db8b72ddaaaa5c,Residential - ADU Attached,53761986454860316,no entitlement found,0,,,,2023-11-14,2024-01-03,,,
+ca2dfcf2191459eb,Residential - ADU Detached,429266721847187140,no entitlement found,0,,,,2023-11-15,2023-11-15,,,
+a29ec86b6d073d1c,Residential - New Single Family Residence,432719321361289062,no entitlement found,0,,,,2023-11-16,2023-11-16,,,
+1b36a23bc91e9880,Residential - ADU Attached,1057765228176765710,no entitlement found,0,,,,2023-11-21,2024-06-27,,,
+43d5c6103d9682c2,Residential - New Single Family Residence,431658069646272096,no entitlement found,0,,,,2023-11-22,2024-08-07,,,
+8cf0c29196cb8693,Residential - ADU Attached,431658069646272096,no entitlement found,0,,,,2023-11-22,2024-08-07,,,
+41bb04d0b01b4581,Residential - ADU Attached,1098020521976525052,no entitlement found,0,,,,2023-11-22,2023-11-22,,,
+8d4d375deb7368d6,Residential - ADU Attached,1087584893274592104,issued,2,Design Review - DRB Design Review; Variance - Design Review,2023-11-09,2023-11-09,2023-11-29,2024-06-20,224,224,
+808ed1c272fd4342,Residential - ADU Attached,239358819033961582,no entitlement found,0,,,,2023-12-07,2024-01-02,,,
+6dfa3ca7a79db24c,Residential - New Single Family Residence,397673971758059061,no entitlement found,0,,,,2023-12-11,2025-06-26,,,
+640bdfccd4fc0fcb,Residential - New Single Family Residence,421274069470038166,issued,2,Coastal Development Permit - Major - Appealable Zone; Design Review - DRB Design Review,2023-09-14,2023-09-14,2023-12-13,2024-08-08,329,329,
+94b43997c4112aee,Residential - New Single Family Residence,354524974480408834,no entitlement found,0,,,,2023-12-19,,,,
+b803fa7056004f9e,Residential - ADU Attached,935616598015700919,no entitlement found,0,,,,2023-12-20,,,,
+2d8cafd3619132a0,Residential - New Single Family Residence,746686552527545315,issued,2,Coastal Development Permit - Design Review; Design Review - DRB Staff-Assisted Design Review (DO NOT USE),2023-07-27,2023-07-27,2023-12-22,2024-05-22,300,300,
+c9d48e8ee31aa145,Residential - ADU Attached,1114203577471161616,no entitlement found,0,,,,2024-01-03,2024-07-10,,,
+9398343e441b8d47,Residential - ADU Attached,239797180939303986,no entitlement found,0,,,,2024-01-09,2024-06-25,,,
+d6079abc57c01a0d,Residential - ADU Attached,538731545876034097,issued,1,Design Review - DRB Design Review,2023-10-12,2023-10-12,2024-01-10,2024-01-29,109,109,
+acc02b19a454f334,Residential - New Single Family Residence,1008164688264233844,no entitlement found,0,,,,2024-01-17,2025-01-27,,,
+4ac1d13d18ab5ecd,Residential - ADU Attached,850018655427696830,no entitlement found,0,,,,2024-01-17,2024-01-17,,,
+5866576a817e284e,Residential - ADU Detached,881449738962660652,issued,3,Coastal Development Permit - Administrative/Emergency; Design Review - Administrative; Design Review - DRB Design Review,2023-07-13,2023-11-15,2024-01-23,2024-05-10,177,302,
+4a158f61030d45f9,Residential - ADU Attached,72647358379683463,no entitlement found,0,,,,2024-01-23,2024-05-01,,,
+c0ca232a36129e66,Residential - ADU Attached,171685392975063591,no entitlement found,0,,,,2024-01-24,2024-06-03,,,
+24d441b34da2bf9d,Residential - ADU Attached,625354695290331574,issued,1,Design Review - Administrative,2023-11-22,2023-11-22,2024-01-24,2024-03-01,100,100,
+49c3e12cd2b33ceb,Residential - ADU Detached,747420689588517787,no entitlement found,0,,,,2024-01-25,2025-02-26,,,
+f66810dc1d156fb1,Residential - ADU Attached,709791245884787260,issued,1,Design Review - Administrative,2023-09-20,2023-09-20,2024-01-25,2024-12-10,447,447,
+4fbd7b72d55e27c6,Residential - ADU Attached,709791245884787260,issued,1,Design Review - Administrative,2023-09-20,2023-09-20,2024-01-25,2024-12-10,447,447,
+700f304489a12d6e,Residential - ADU Attached,897268012746437057,issued,1,Design Review - DRB Design Review,2023-08-24,2023-08-24,2024-02-01,2024-09-19,392,392,
+abfef28217677fe4,Residential - ADU Attached,158171077105296505,no entitlement found,0,,,,2024-02-01,,,,
+26867e176d9c97a9,Residential - ADU Attached,100811751828089231,issued,4,Coastal Development Permit - Design Review; Coastal Development Permit - PC/DRB/CC; Design Review - DRB Design Review,2023-09-28,2023-12-07,2024-02-02,2025-06-26,567,637,
+d093fff4ef7d912d,Residential - ADU Detached,781631599944842441,no entitlement found,0,,,,2024-02-05,2024-02-12,,,
+802f57ef9cabca6e,Residential - New Single Family Residence,705947647961775594,issued,3,Coastal Development Permit - Design Review; Design Review - DRB Design Review; Variance - Design Review,2023-10-26,2023-10-26,2024-02-06,2024-08-20,299,299,
+8fbfaca360f5db9e,Residential - ADU Attached,705947647961775594,issued,3,Coastal Development Permit - Design Review; Design Review - DRB Design Review; Variance - Design Review,2023-10-26,2023-10-26,2024-02-06,2024-08-20,299,299,
+a19e01d7cc813a0a,Residential - ADU Detached,376808124258438849,no entitlement found,0,,,,2024-02-07,,,,
+5c5ea5dd9a4cb3c4,Residential - ADU Detached,7895975421278870,no entitlement found,0,,,,2024-02-12,2024-02-15,,,
+c87747db21b1d204,Residential - New Single Family Residence,1072739107263262653,no permit issued yet,3,Coastal Development Permit - PC/DRB/CC,2024-08-21,2026-08-14,2024-02-29,,,,88
+49837850b16d7ca2,Residential - New Single Family Residence,124349751741320661,issued,2,Coastal Development Permit - Design Review; Design Review - DRB Design Review,2023-12-07,2023-12-07,2024-03-01,2025-02-26,447,447,
+54fa2c65467d7ad8,Residential - ADU Attached,124349751741320661,issued,2,Coastal Development Permit - Design Review; Design Review - DRB Design Review,2023-12-07,2023-12-07,2024-03-01,2025-02-26,447,447,
+01c2b98b4f6a1193,Residential - New Single Family Residence,945762122603565654,no entitlement found,0,,,,2024-03-06,2024-03-06,,,
+554832e94c652b8b,Residential - ADU Attached,215267072729851863,no entitlement found,0,,,,2024-03-14,2024-09-17,,,
+a1e49563af3925d4,Residential - ADU Attached,834256813452602896,no entitlement found,0,,,,2024-03-14,2024-05-22,,,
+c38a2a8e7c27ab70,Residential - ADU Attached,456279509317866982,issued,1,Design Review - Administrative,2023-04-26,2023-04-26,2024-03-25,2024-07-15,446,446,
+9f138d11d5428522,Residential - ADU Attached,887863121099040668,no entitlement found,0,,,,2024-03-27,2024-06-20,,,
+c2a6a15b6a25daff,Residential - New Single Family Residence,742169910120004538,issued,2,Coastal Development Permit - Design Review; Design Review - DRB Design Review,2023-11-09,2023-11-09,2024-03-28,2025-05-14,552,552,
+67d83b6505d95f88,Commercial - ADU Detached,562107311269263407,issued,1,Coastal Development Permit - Administrative/Emergency,2023-11-09,2023-11-09,2024-04-18,2025-05-29,567,567,
+278f4fbf49ce3d00,Residential - ADU Attached,51196802216468955,no entitlement found,0,,,,2024-04-18,2024-11-08,,,
+e8c21c1a83e52b8f,Residential - ADU Attached,865802153798843917,issued,1,Design Review - DRB Design Review,2024-02-08,2024-02-08,2024-04-01,2024-10-28,263,263,
+950219a0f599b0db,Residential - ADU Attached,3625177666907923,issued,1,Coastal Development Permit - Administrative/Emergency,2024-07-01,2024-07-01,2024-04-02,2024-09-23,84,84,
+aabe1b1121c75b79,Residential - New Single Family Residence,58414186831533494,no entitlement found,0,,,,2024-04-03,2025-04-25,,,
+d56ec5468790d5f7,Residential - New Single Family Residence,422858600582652365,issued,1,Design Review - DRB Staff-Assisted Design Review (DO NOT USE),2023-10-12,2023-10-12,2024-04-08,2025-05-06,572,572,
+00915d370c230f0d,Residential - ADU Attached,422858600582652365,issued,1,Design Review - DRB Staff-Assisted Design Review (DO NOT USE),2023-10-12,2023-10-12,2024-04-08,2025-05-06,572,572,
+02840b72954510e3,Residential - ADU Attached,571309444852644852,no permit issued yet,3,Coastal Development Permit - PC/DRB/CC; Design Review - DRB Design Review; Variance - Design Review,2025-06-12,2025-06-12,2024-04-08,,,,516
+c708cff1ca6f95f9,Residential - New Single Family Residence,374289071916206272,no permit issued yet,3,Coastal Development Permit - PC/DRB/CC; Design Review - DRB Design Review; Design Review - DRB Staff-Assisted Design Review (DO NOT USE),2023-12-07,2025-09-25,2024-04-09,,,,411
+068d9e16b8642eac,Residential - ADU Attached,484490816839822251,no permit issued yet,1,Design Review - DRB Design Review,2023-12-07,2023-12-07,2024-04-09,,,,1069
+f3aa5e9894c082a6,Residential - New Single Family Residence,484490816839822251,no permit issued yet,1,Design Review - DRB Design Review,2023-12-07,2023-12-07,2024-04-09,,,,1069
+28956c0efd460773,Residential - ADU Attached,532277273678367872,no entitlement found,0,,,,2024-04-11,2024-04-16,,,
+29629c9b97423795,Residential - ADU Detached,374289071916206272,no permit issued yet,3,Coastal Development Permit - PC/DRB/CC; Design Review - DRB Design Review; Design Review - DRB Staff-Assisted Design Review (DO NOT USE),2023-12-07,2025-09-25,2024-04-12,,,,411
+e427d0ee5ae462e3,Residential - ADU Attached,1014125248146009545,no entitlement found,0,,,,2024-04-15,2024-09-24,,,
+ec079a2a2b6e3ba6,Residential - ADU Attached,120288736891870964,no permit issued yet,7,Coastal Development Permit - Administrative/Emergency; Coastal Development Permit - PC/DRB/CC; Design Review - DRB Design Review; Variance - Design Review,2023-05-03,2026-05-28,2024-04-22,,,,166
+fac32faec12747cc,Residential - ADU Attached,199632442160133153,issued,1,Design Review - DRB Design Review,2024-02-08,2024-02-08,2024-04-23,2024-08-29,203,203,
+851965c1a8c1ea40,Residential - ADU Attached,1145293191130501298,no entitlement found,0,,,,2024-04-25,2024-10-25,,,
+54c702b8b5537e28,Residential - ADU Attached,31551229863190738,no entitlement found,0,,,,2024-04-25,2024-05-13,,,
+62b3eaff20342a52,Residential - ADU Attached,74421645417991759,no entitlement found,0,,,,2024-04-29,2024-06-24,,,
+42b6335935ced451,Residential - ADU Attached,658688627456889633,no entitlement found,0,,,,2024-04-29,,,,
+330c6014899f80cb,Residential - ADU Attached,99969956730186538,no entitlement found,0,,,,2024-04-30,2024-10-17,,,
+7e4b5f1ce888ec6d,Residential - ADU Attached,325664559434609966,issued,2,Design Review - Administrative,2024-03-20,2025-02-05,2024-05-06,2025-03-11,34,356,
+2afdb3077327906b,Residential - ADU Attached,888652426853059316,no entitlement found,0,,,,2024-05-09,2025-01-14,,,
+f7b53870194db09f,Residential - ADU Detached,97835207600771482,no entitlement found,0,,,,2024-05-10,2024-05-24,,,
+b54f7e30bee3c089,Residential - New Single Family Residence,944222656276251788,no entitlement found,0,,,,2024-05-14,2024-06-05,,,
+01eb19fbda4883eb,Residential - New Single Family Residence,989855448792070430,issued,3,Coastal Development Permit - Design Review; Design Review - DRB Staff-Assisted Design Review (DO NOT USE); Variance - Design Review,2023-11-09,2023-11-09,2024-05-14,2025-04-03,511,511,
+65f887300517bb40,Residential - New Single Family Residence,1148566272354134651,no entitlement found,0,,,,2024-05-16,2024-05-22,,,
+20b33368e0e190b5,Residential - ADU Attached,875381675047175136,no entitlement found,0,,,,2024-05-28,2024-07-08,,,
+eaf5c0fa1dfcfa46,Residential - ADU Attached,949307250015417969,issued,2,Coastal Development Permit - Administrative/Emergency; Design Review - Administrative,2023-11-15,2024-04-04,2024-05-28,2024-07-10,97,238,
+5fb3f9e8b31c3a1e,Residential - ADU Attached,444143351643981862,no entitlement found,0,,,,2024-05-28,2025-01-08,,,
+217afb195444725b,Residential - ADU Attached,462692467409409786,no entitlement found,0,,,,2024-05-28,2025-05-13,,,
+038e3dfeeaa2269c,Residential - ADU Detached,826949185738570781,no entitlement found,0,,,,2024-05-16,2024-09-09,,,
+9fc040c56fe04f63,Commercial - ADU Attached,593764320311073246,no entitlement found,0,,,,2024-06-25,2024-07-29,,,
+c2720f97ae0f56d7,Residential - ADU Attached,1058083261031763312,no entitlement found,0,,,,2024-06-05,2024-06-10,,,
+8de186a8b1fd48eb,Residential - ADU Attached,77082158144489469,issued,1,Design Review - Administrative,2023-05-31,2023-05-31,2024-06-05,2024-06-05,371,371,
+0290ee3eac8dc56e,Residential - New Single Family Residence,902098072940043633,no entitlement found,0,,,,2024-06-07,2024-06-20,,,
+811dda4676f58f96,Residential - ADU Attached,912983367297432520,no permit issued yet,3,Accessory Dwelling Units (ADUs) and Junior Accessory Dwelling Units (JADUs); Coastal Development Permit - PC/DRB/CC; Variance - Design Review,2025-09-08,2025-12-11,2024-06-11,,,,334
+cbc61921f4e437ed,Residential - ADU Attached,912983367297432520,no permit issued yet,3,Accessory Dwelling Units (ADUs) and Junior Accessory Dwelling Units (JADUs); Coastal Development Permit - PC/DRB/CC; Variance - Design Review,2025-09-08,2025-12-11,2024-06-11,,,,334
+23a1be077dacda56,Residential - ADU Attached,93706747913928145,no entitlement found,0,,,,2024-06-12,2024-08-21,,,
+b56929cd6d85861a,Residential - ADU Detached,634690386677478,issued,1,Coastal Development Permit - Administrative/Emergency,2024-06-14,2024-06-14,2024-06-17,2024-08-16,63,63,
+9d92850f207ab2b7,Residential - ADU Attached,38784899306192798,issued,1,Coastal Development Permit - Administrative/Emergency,2024-03-06,2024-03-06,2024-06-17,2024-09-30,208,208,
+c111946e234c9fcd,Residential - ADU Attached,803767811594520051,issued,1,Coastal Development Permit - Administrative/Emergency,2024-04-25,2024-04-25,2024-06-18,2025-01-08,258,258,
+12c993979b522830,Residential - ADU Attached,75701554793286914,no entitlement found,0,,,,2024-06-20,2024-06-20,,,
+6b4d67086c8a538a,Residential - ADU Attached,774201790997211007,no entitlement found,0,,,,2024-06-21,2024-07-17,,,
+1100beb77bf6b0f8,Residential - ADU Detached,451962190831301952,no entitlement found,0,,,,2024-07-08,2024-07-08,,,
+ff6ee9e232a97470,Residential - ADU Attached,417644221806807153,issued,1,Design Review - DRB Design Review,2024-03-14,2024-03-14,2024-07-15,2024-09-23,193,193,
+3db3c6d242c29010,Residential - ADU Attached,655580793163770099,no entitlement found,0,,,,2024-07-16,2025-05-12,,,
+38cf3614f327c5ba,Residential - ADU Detached,961268317840352528,no entitlement found,0,,,,2024-07-16,,,,
+694cdaacc8dfc5de,Residential - ADU Detached,411307259132859212,issued,1,Design Review - Administrative,2023-05-03,2023-05-03,2024-07-22,2025-05-05,733,733,
+7ae5d4b5dc9319e0,Residential - ADU Attached,379912667010313323,no entitlement found,0,,,,2024-08-28,,,,
+535d1e71f53ed7e3,Residential - ADU Attached,133440302200111383,no entitlement found,0,,,,2024-08-05,2024-08-05,,,
+0da3dab485284f1f,Residential - ADU Attached,133440302200111383,no entitlement found,0,,,,2024-08-05,2024-08-05,,,
+d9b8c77832873349,Residential - ADU Attached,611710557231644907,no entitlement found,0,,,,2024-08-07,2024-12-20,,,
+6e40ec421fc5c4ce,Residential - ADU Attached,572297927475506030,no entitlement found,0,,,,2024-08-08,2024-08-08,,,
+6bbb646f3e84614e,Residential - ADU Detached,32618941036214709,issued,1,Design Review - Administrative,2024-03-15,2024-03-15,2024-08-12,2024-08-27,165,165,
+8bed530d6c82d455,Residential - ADU Attached,982952816634954939,issued,2,Coastal Development Permit - Administrative/Emergency; Design Review - Administrative,2024-09-11,2024-09-24,2024-08-13,2026-05-27,610,623,
+db5696e805c975cf,Residential - ADU Detached,26310219911215172,no entitlement found,0,,,,2024-08-19,2025-04-28,,,
+7744847ce9d50986,Residential - ADU Attached,546276893191602222,no entitlement found,0,,,,2024-08-30,2025-04-08,,,
+1bcb5f84b1d7dd45,Residential - ADU Detached,942163421276918586,issued,2,Design Review - Administrative; Design Review - DRB Design Review,2025-10-09,2025-10-09,2024-09-11,2025-12-15,67,67,
+920a76dbeb3b447e,Residential - ADU Attached,1131445066800558434,no permit issued yet,2,Coastal Development Permit - Design Review; Design Review - DRB Design Review,2024-01-11,2024-01-11,2024-09-13,,,,1034
+40256c5f7fb73daf,Residential - ADU Attached,1131445066800558434,no permit issued yet,2,Coastal Development Permit - Design Review; Design Review - DRB Design Review,2024-01-11,2024-01-11,2024-09-13,,,,1034
+c96616853b01d786,Residential - ADU Attached,131306973705414048,issued,1,Design Review - DRB Design Review,2023-10-26,2023-10-26,2024-09-16,2025-09-10,685,685,
+8316baf9b002d0f1,Residential - ADU Attached,131306973705414048,issued,1,Design Review - DRB Design Review,2023-10-26,2023-10-26,2024-09-16,2025-09-10,685,685,
+aaa1544069e0cd30,Residential - ADU Attached,290367011135348678,issued,3,Coastal Development Permit - Administrative/Emergency; Design Review - DRB Design Review; Variance - Design Review,2023-07-13,2025-08-06,2024-09-23,2025-10-16,71,826,
+626fe82cbf373cd3,Residential - ADU Attached,80578472280974904,no entitlement found,0,,,,2024-09-19,2025-01-30,,,
+f24c6284b84ff77a,Residential - ADU Attached,883106686294463746,no entitlement found,0,,,,2024-09-30,2024-09-30,,,
+80526d3bb51779ab,Residential - New Single Family Residence,901089214175753753,issued,2,Coastal Development Permit - Design Review; Design Review - DRB Design Review,2024-04-25,2024-04-25,2024-10-21,2025-05-14,384,384,
+aceebbf0cec6720d,Residential - ADU Detached,700319451342553143,no entitlement found,0,,,,2024-10-01,2025-01-14,,,
+484b284e69d2f2ba,Residential - ADU Detached,730926765903349880,no entitlement found,0,,,,2024-10-02,2025-04-22,,,
+552cc6c96a3c75ef,Residential - New Single Family Residence,552081760483371751,no entitlement found,0,,,,2024-10-09,2024-12-19,,,
+ba49133fe7f9b795,Residential - ADU Attached,562528897785813828,no entitlement found,0,,,,2024-10-09,2025-01-23,,,
+a752cce086edea53,Residential - ADU Attached,564506189855446256,no entitlement found,0,,,,2024-10-14,2024-10-14,,,
+92c0b746ebe9545e,Residential - ADU Attached,344089255862262349,no entitlement found,0,,,,2024-10-14,2025-05-08,,,
+0cfc656ff7d52fd5,Residential - ADU Attached,238118098974227927,no entitlement found,0,,,,2024-10-28,2025-03-25,,,
+6c3b079ff639b3e3,Residential - New Single Family Residence,681732727331252014,issued,1,Design Review - DRB Design Review,2024-09-26,2024-09-26,2024-10-29,2025-03-03,158,158,
+8d9e21b12a775309,Residential - ADU Attached,962187259704262153,issued,1,Design Review - Administrative,2023-07-26,2023-07-26,2024-11-04,2025-04-11,625,625,
+b1c8cabf8adeea34,Residential - New Single Family Residence,71897758651085234,no entitlement found,0,,,,2024-11-04,2024-11-14,,,
+593d659cb14643d8,Residential - ADU Attached,751840288727639944,issued,2,Design Review - DRB Design Review; Variance - Design Review,2024-09-26,2024-09-26,2024-11-14,2025-05-08,224,224,
+cdb3772cbaa7a66f,Residential - ADU Attached,751840288727639944,issued,2,Design Review - DRB Design Review; Variance - Design Review,2024-09-26,2024-09-26,2024-11-14,2025-05-08,224,224,
+95c31fe6e6381012,Residential - ADU Detached,100500960072840173,no entitlement found,0,,,,2024-11-18,2025-10-20,,,
+7e4d792f8bb806a9,Residential - ADU Attached,931559944325236982,no entitlement found,0,,,,2024-11-19,,,,
+e8cb023644f43716,Residential - ADU Detached,1137318765636679368,no entitlement found,0,,,,2024-11-20,2025-03-10,,,
+e281a6e24ee42425,Residential - New Single Family Residence,871442862458909935,issued,3,Coastal Development Permit - PC/DRB/CC; Design Review - DRB Design Review; Second Residential Unit,2024-01-25,2024-08-22,2024-12-02,2025-10-29,433,643,
+a9bfbf8ecd960059,Residential - ADU Attached,871442862458909935,issued,3,Coastal Development Permit - PC/DRB/CC; Design Review - DRB Design Review; Second Residential Unit,2024-01-25,2024-08-22,2024-12-02,2025-10-29,433,643,
+585a84ed73630fb7,Residential - ADU Attached,253210657348051658,no entitlement found,0,,,,2024-12-03,2025-06-23,,,
+0046c5b181ed22e4,Residential - ADU Detached,311987503651376884,no entitlement found,0,,,,2024-12-09,,,,
+ddf4e3cf3ee40542,Residential - ADU Attached,743668461980564318,no entitlement found,0,,,,2024-12-12,2024-12-18,,,
+8506d8ef712e1881,Residential - ADU Detached,108326840067558973,no entitlement found,0,,,,2025-01-09,2025-04-08,,,
+32e658f8567c27e2,Residential - ADU Detached,1099695908241878062,no entitlement found,0,,,,2025-01-14,2025-03-14,,,
+ab456d690fe89802,Residential - ADU Attached,1072739107263262653,no permit issued yet,3,Coastal Development Permit - PC/DRB/CC,2024-08-21,2026-08-14,2025-01-14,,,,88
+e958a83e1258cdf1,Residential - ADU Attached,422611315271163840,issued,1,Coastal Development Permit - Administrative/Emergency,2025-01-03,2025-01-03,2025-01-15,2025-06-24,172,172,
+01d52c3aed5f366d,Residential - New Single Family Residence,541660681827394299,issued,2,Coastal Development Permit - PC/DRB/CC; Design Review - DRB Design Review,2024-10-24,2024-10-24,2025-01-22,2025-12-23,425,425,
+5f27758e25543dbf,Residential - ADU Detached,358308897195789347,no permit issued yet,3,Coastal Development Permit - Administrative/Emergency; Coastal Development Permit - PC/DRB/CC; Design Review - DRB Design Review,2025-01-03,2026-02-26,2025-01-28,,,,257
+3b6714e66d35ec05,Residential - ADU Attached,949372786741170379,issued,2,Coastal Development Permit - Administrative/Emergency; Design Review - Administrative,2025-11-19,2025-11-19,2025-02-06,2026-05-04,166,166,
+9f6d582833bc424e,Residential - ADU Attached,949372786741170379,issued,2,Coastal Development Permit - Administrative/Emergency; Design Review - Administrative,2025-11-19,2025-11-19,2025-02-06,2026-05-04,166,166,
+64e3eb235a6eef22,Residential - ADU Attached,951611726257494539,no permit issued yet,2,Design Review - DRB Design Review; Variance - Design Review,2024-10-10,2024-10-10,2025-02-07,,,,761
+ed4c0a0e9193d7cd,Residential - ADU Detached,878044688938304450,issued,2,Coastal Development Permit - PC/DRB/CC; Design Review - DRB Design Review,2025-04-10,2025-04-10,2025-02-14,2025-11-12,216,216,
+95110bc994de81ec,Residential - ADU Detached,99164003698234633,issued,1,Coastal Development Permit - Administrative/Emergency,2025-01-02,2025-01-02,2025-02-25,2025-07-23,202,202,
+f66d8975dce234f5,Residential - ADU Attached,60747218214022736,no entitlement found,0,,,,2025-02-26,,,,
+a0f1ce55e41fb717,Residential - New Single Family Residence,563682932660551155,no entitlement found,0,,,,2025-03-04,2026-07-14,,,
+5fc9c8158e53ae63,Residential - ADU Detached,81521613755725517,no permit issued yet,2,Coastal Development Permit - PC/DRB/CC; Design Review - DRB Design Review,2024-12-12,2024-12-12,2025-03-03,,,,698
+64c35a8667b2edd0,Residential - ADU Attached,813442915551770629,no entitlement found,0,,,,2025-03-03,2025-03-10,,,
+55f0b56ff5af1d9d,Residential - ADU Attached,75569109240641032,no entitlement found,0,,,,2025-03-05,,,,
+75f16a33f0ce8376,Residential - ADU Attached,1148566272354134651,no entitlement found,0,,,,2025-03-12,2025-04-28,,,
+f97f746f57a9ba63,Residential - New Single Family Residence,1007444272004539906,no permit issued yet,2,Accessory Dwelling Units (ADUs) and Junior Accessory Dwelling Units (JADUs); Coastal Development Permit - Administrative/Emergency,2025-11-12,2025-12-09,2025-03-19,,,,336
+03aa54b567237cfc,Residential - ADU Detached,143639800545715345,no entitlement found,0,,,,2025-03-26,2025-03-26,,,
+a5ba5daef9732ebb,Residential - ADU Detached,884267368541702269,no entitlement found,0,,,,2025-03-26,2025-03-26,,,
+568abce2ce8cc0a3,Residential - New Single Family Residence,158429431501955741,no permit issued yet,1,Design Review - DRB Design Review,2025-01-09,2025-01-09,2025-03-26,,,,670
+5d156233c51715c2,Residential - ADU Attached,135913641089459658,issued,1,Variance - Design Review,2024-08-22,2024-08-22,2025-03-26,2025-12-15,480,480,
+bf599a89d97795fd,Residential - New Single Family Residence,855298279866199924,issued,3,Coastal Development Permit - PC/DRB/CC; Design Review - DRB Design Review; Variance - Design Review,2025-01-23,2025-01-23,2025-03-27,2025-10-06,256,256,
+05384cd1366e3359,Residential - ADU Attached,595314852076251502,issued,1,Design Review - Administrative,2024-10-02,2024-10-02,2025-04-01,2025-04-03,183,183,
+7675e59fa5955e15,Residential - ADU Attached,559806558412470045,no entitlement found,0,,,,2025-04-10,,,,
+7e6a78753627d6d3,Residential - New Single Family Residence,878824161559103901,no entitlement found,0,,,,2025-04-15,2025-07-22,,,
+e8680ce3f623ae33,Residential - ADU Attached,73771449355432459,no entitlement found,0,,,,2025-04-23,2025-09-25,,,
+c03a83645e569ed4,Residential - ADU Attached,541183962398398257,no entitlement found,0,,,,2025-04-28,2025-12-15,,,
+a29549ba7f4afc9f,Residential - New Single Family Residence,541183962398398257,no entitlement found,0,,,,2025-04-28,2025-12-15,,,
+a309e190ae925edc,Residential - ADU Attached,506129277593668820,issued,1,Coastal Development Permit - Administrative/Emergency,2025-01-17,2025-01-17,2025-04-29,2025-08-07,202,202,
+5d15d03d65302f5c,Residential - ADU Detached,699068187626381970,issued,1,Design Review - DRB Design Review,2024-03-14,2024-03-14,2025-05-05,2025-06-23,466,466,
+a08a4ece9350c6b4,Residential - New Single Family Residence,899416572168079908,issued,2,Coastal Development Permit - Major - Appealable Zone; Design Review - DRB Design Review,2024-10-24,2024-10-24,2025-05-06,2025-12-23,425,425,
+85dd30a1d9f343b0,Residential - ADU Attached,945762122603565654,no entitlement found,0,,,,2025-05-08,2025-07-10,,,
+bc353f75a51dfc03,Residential - ADU Attached,880779782474783727,issued,1,Coastal Development Permit - Administrative/Emergency,2025-03-31,2025-03-31,2025-05-14,2025-07-22,113,113,
+9398cb96f8a7a30a,Residential - ADU Detached,79324715019404437,no permit issued yet,1,Coastal Development Permit - Administrative/Emergency,2025-05-07,2025-05-07,2025-05-20,,,,552
+e4c228e8e2e5c605,Residential - ADU Detached,192909890172913606,issued,1,Coastal Development Permit - Administrative/Emergency,2025-05-28,2025-05-28,2025-05-21,2025-06-16,19,19,
+c34dddf95dbeff5a,Residential - ADU Detached,593773447588604539,no permit issued yet,1,Coastal Development Permit - Administrative/Emergency,2025-04-28,2025-04-28,2025-05-21,,,,561
+3127a72f5a0aed8d,Residential - New Single Family Residence,674740323753313355,no permit issued yet,3,Coastal Development Permit - Design Review; Design Review - Administrative; Design Review - DRB Design Review,2024-12-12,2026-04-08,2025-05-01,,,,216
+fd3e81169bb47d71,Residential - ADU Attached,375805823703896762,issued,2,Design Review - DRB Design Review; Variance - Design Review,2024-04-25,2024-04-25,2025-06-03,2025-07-10,441,441,
+a7879d257e67451a,Residential - ADU Detached,693891110589354349,no permit issued yet,2,Coastal Development Permit - Administrative/Emergency; Design Review - DRB Design Review,2023-09-14,2024-10-08,2025-06-06,,,,763
+f71420a96b41dc8f,Residential - ADU Attached,1113869976678109876,issued,2,Coastal Development Permit - Administrative/Emergency; Design Review - DRB Design Review,2025-05-22,2025-05-22,2025-06-10,2026-03-30,312,312,
+ae3062094ce08e2a,Residential - ADU Detached,1093192464413792113,issued,2,Accessory Dwelling Units (ADUs) and Junior Accessory Dwelling Units (JADUs); Coastal Development Permit - Administrative/Emergency,2025-03-04,2025-04-28,2025-06-16,2026-01-22,269,324,
+6aab707bb42796e0,Residential - ADU Attached,393144907599732042,no permit issued yet,3,Coastal Development Permit - Administrative/Emergency; Coastal Development Permit - PC/DRB/CC; Design Review - DRB Design Review,2024-10-10,2025-03-17,2025-06-24,,,,603
+75340e4fba0092fc,Residential - New Single Family Residence,907076168462198624,no entitlement found,0,,,,2025-06-26,2026-05-11,,,
+4c45c4c07db27383,Residential - New Single Family Residence,44821469978631280,no entitlement found,0,,,,2025-07-01,,,,
+d2ac38ff1d59804e,Residential - New Single Family Residence,150290093850898771,issued,2,Coastal Development Permit - PC/DRB/CC; Design Review - DRB Design Review,2025-01-09,2025-01-09,2025-07-01,2026-02-11,398,398,
+5309fa045922cabf,Residential - ADU Detached,899355575648986744,issued,1,Design Review - DRB Design Review,2023-10-12,2023-10-12,2025-07-02,2026-02-18,860,860,
+33e707d02a0bf0b5,Residential - New Single Family Residence,425304360046104617,no entitlement found,0,,,,2025-07-03,,,,
+879a62fed09439b6,Residential - ADU Attached,1089007848791954776,no entitlement found,0,,,,2025-07-03,2025-07-14,,,
+7a36423d780533ed,Residential - ADU Attached,964131572761331047,no permit issued yet,2,Coastal Development Permit - PC/DRB/CC; Design Review - DRB Design Review,2024-07-25,2024-07-25,2025-07-03,,,,838
+51f24502c69fed1a,Residential - New Single Family Residence,161370139771624389,no entitlement found,0,,,,2025-07-09,,,,
+6eb3719354d45c4d,Residential - ADU Attached,591257395243987855,no entitlement found,0,,,,2025-07-10,2025-10-07,,,
+6427760f2ba5d018,Residential - ADU Attached,289974627884956357,no entitlement found,0,,,,2025-07-14,2025-08-14,,,
+11da72adddd36346,Residential - ADU Detached,965575752805978262,no permit issued yet,2,Coastal Development Permit - Administrative/Emergency; Design Review - Administrative,2025-06-30,2025-07-03,2025-07-23,,,,495
+d09eca50eca35ea1,Residential - ADU Attached,431671747322700593,issued,1,Coastal Development Permit - Administrative/Emergency,2025-07-08,2025-07-08,2025-07-23,2026-03-09,244,244,
+a116d2a237b748bb,Residential - ADU Attached,238118098974227927,no entitlement found,0,,,,2025-07-29,2025-09-29,,,
+6164207450e464df,Residential - New Single Family Residence,996721102384378105,no permit issued yet,3,Coastal Development Permit - PC/DRB/CC; Design Review - DRB Design Review; Variance - Design Review,2025-02-13,2025-02-13,2025-08-11,,,,635
+8290a8c838d49ce1,Residential - ADU Attached,272534611384246790,no entitlement found,0,,,,2025-08-06,,,,
+8781c9cc8ce5e13e,Residential - ADU Detached,1081856636452453871,issued,1,Accessory Dwelling Units (ADUs) and Junior Accessory Dwelling Units (JADUs),2025-06-03,2025-06-03,2025-08-08,2025-11-24,174,174,
+beeef3d23841fca8,Residential - New Single Family Residence,940396956841622943,issued,2,Coastal Development Permit - PC/DRB/CC; Design Review - DRB Design Review,2025-05-22,2025-05-22,2025-08-12,2026-03-18,300,300,
+709fa36f1adb466a,Residential - ADU Attached,105943962011871009,no entitlement found,0,,,,2025-08-13,2025-09-15,,,
+356a338dc9453fc4,Residential - ADU Attached,1098529468946389222,issued,2,Coastal Development Permit - Administrative/Emergency; Design Review - DRB Design Review,2023-08-24,2025-03-11,2025-08-14,2026-11-03,602,1167,
+9952245964d5f6f8,Residential - ADU Attached,481846534950022023,issued,2,Coastal Development Permit - Administrative/Emergency; Design Review - DRB Design Review,2025-06-26,2025-06-26,2025-08-21,2026-03-30,277,277,
+663a9e6a95ce0a5a,Residential - New Single Family Residence,657356968243752327,issued,1,Design Review - DRB Design Review,2025-05-22,2025-05-22,2025-08-28,2026-09-09,475,475,
+c2700585219e87b0,Residential - ADU Attached,657356968243752327,issued,1,Design Review - DRB Design Review,2025-05-22,2025-05-22,2025-08-29,2026-09-09,475,475,
+b419acc94ad9fdb5,Residential - ADU Attached,188281914724273341,no entitlement found,0,,,,2025-09-08,2025-10-27,,,
+bf7e8a70259fb08f,Residential - ADU Attached,293620651968521376,issued,2,Coastal Development Permit - PC/DRB/CC; Design Review - DRB Design Review,2025-07-10,2025-07-10,2025-09-10,2026-04-13,277,277,
+826e7bbe2fb18680,Residential - ADU Attached,112709340535239739,issued,2,Accessory Dwelling Units (ADUs) and Junior Accessory Dwelling Units (JADUs); Coastal Development Permit - Administrative/Emergency,2025-08-13,2025-10-17,2025-09-19,2026-03-03,137,202,
+a1b724940e0a0d8e,Residential - New Single Family Residence,4804257824931914,no permit issued yet,1,Design Review - DRB Design Review,2025-04-24,2025-04-24,2025-09-22,,,,565
+556b107ffc3b72eb,Residential - ADU Attached,432678306882659233,issued,2,Accessory Dwelling Units (ADUs) and Junior Accessory Dwelling Units (JADUs); Design Review - Administrative,2025-08-06,2025-08-18,2025-09-29,2026-02-05,171,183,
+ac06460d28b55aeb,Residential - ADU Attached,214425680254892245,no entitlement found,0,,,,2025-09-29,2026-03-30,,,
+3dd631cdb9625458,Residential - ADU Detached,688990776591419765,issued,2,Coastal Development Permit - PC/DRB/CC; Design Review - Administrative,2025-09-10,2025-09-10,2025-10-02,2025-12-04,85,85,
+0739762af6bda5df,Residential - ADU Detached,487625856214206292,no entitlement found,0,,,,2025-10-06,,,,
+ac4d5474c6bf6fad,Residential - ADU Attached,438615180464759400,no permit issued yet,1,Design Review - Administrative,2023-07-12,2023-07-12,2025-10-07,,,,1217
+be360c4d6cdb6414,Residential - ADU Attached,438615180464759400,no permit issued yet,1,Design Review - Administrative,2023-07-12,2023-07-12,2025-10-07,,,,1217
+60e2f9d37d242696,Residential - ADU Attached,299004926821725858,issued,2,Accessory Dwelling Units (ADUs) and Junior Accessory Dwelling Units (JADUs); Coastal Development Permit - Administrative/Emergency,2025-08-22,2025-10-17,2025-10-20,2026-05-06,201,257,
+7cfcf8ed2217131a,Residential - ADU Attached,227602596691299265,issued,2,Coastal Development Permit - Administrative/Emergency; Design Review - Administrative,2025-07-30,2025-07-30,2025-10-21,2026-10-28,455,455,
+17e8d4b9ba24fef5,Residential - New Single Family Residence,430960618130915109,no permit issued yet,2,Coastal Development Permit - PC/DRB/CC; Design Review - DRB Design Review,2025-06-12,2025-06-12,2025-10-29,,,,516
+73d525e8e75a1ee0,Residential - ADU Attached,780252227156163641,issued,3,Accessory Dwelling Units (ADUs) and Junior Accessory Dwelling Units (JADUs); Coastal Development Permit - PC/DRB/CC; Design Review - Administrative,2025-07-28,2025-09-24,2025-11-03,2025-11-03,40,98,
+57d6cc0285bd893f,Residential - ADU Detached,700713753481945036,no permit issued yet,1,Coastal Development Permit - Administrative/Emergency,2026-04-14,2026-04-14,2025-11-11,,,,210
+45d20b9601a79adc,Residential - ADU Attached,118124389103203291,no permit issued yet,1,Accessory Dwelling Units (ADUs) and Junior Accessory Dwelling Units (JADUs),2025-08-19,2025-08-19,2025-11-12,,,,448
+e05e6aea8f120324,Residential - ADU Attached,118124389103203291,no permit issued yet,1,Accessory Dwelling Units (ADUs) and Junior Accessory Dwelling Units (JADUs),2025-08-19,2025-08-19,2025-11-13,,,,448
+e5d6a55932e34959,Residential - ADU Detached,118014116104998381,issued,5,Accessory Dwelling Units (ADUs) and Junior Accessory Dwelling Units (JADUs); Coastal Development Permit - Design Review; Coastal Development Permit - PC/DRB/CC; Design Review - Administrative; Design Review - DRB Design Review,2024-02-08,2025-10-08,2025-11-18,2026-08-19,315,923,
+27a21b929b383245,Residential - ADU Detached,678953571633752790,no entitlement found,0,,,,2025-11-25,,,,
+b0a0bcb3c1f25691,Residential - ADU Detached,1058558983392364091,no permit issued yet,2,Accessory Dwelling Units (ADUs) and Junior Accessory Dwelling Units (JADUs); Coastal Development Permit - Administrative/Emergency,2025-09-05,2025-10-17,2025-11-25,,,,389
+62b2d6bc0945b05a,Residential - ADU Detached,678953571633752790,no entitlement found,0,,,,2025-11-25,,,,
+a12aee955760eb9e,Commercial - ADU Attached,504442880102499706,issued,1,Design Review - Administrative,2025-10-02,2025-10-02,2025-12-10,2026-09-29,362,362,
+ef06113a85654707,Commercial - New Mixed Use,63505662560121010,issued,4,Coastal Development Permit - PC/DRB/CC; Coastal Development Permit - Planning Commission; Conditional Use Permit - Amendment; Design Review - Planning Commission Design Review,2023-09-20,2026-03-24,2025-12-11,2026-07-02,100,1016,
+76be6c9e7b770471,Residential - New Single Family Residence,206449213828823994,no entitlement found,0,,,,2025-12-02,,,,
+fccf567469f15833,Residential - ADU Attached,948884665242764087,no permit issued yet,1,Accessory Dwelling Units (ADUs) and Junior Accessory Dwelling Units (JADUs),2025-08-04,2025-08-04,2025-12-02,,,,463
+7cd6d8257b721e1d,Residential - New Single Family Residence,811865302994435583,issued,2,Coastal Development Permit - PC/DRB/CC; Design Review - DRB Design Review,2025-07-10,2025-07-10,2025-12-03,2026-07-22,377,377,
+dcb6205c756996cc,Residential - ADU Attached,775646172418074374,issued,3,Coastal Development Permit - PC/DRB/CC; Design Review - DRB Design Review; Variance - Design Review,2025-11-06,2025-11-06,2025-12-03,2026-07-13,249,249,
+15d2c8df9a4b8d5e,Residential - ADU Attached,1039401284875716241,issued,2,Coastal Development Permit - PC/DRB/CC; Variance - Design Review,2025-10-09,2025-10-09,2025-12-08,2026-05-12,215,215,
+af8c56f302928cfe,Residential - New Single Family Residence,1102138423445782886,no entitlement found,0,,,,2025-12-08,,,,
+dc35e0655abef800,Residential - ADU Detached,928662160188633453,issued,2,Accessory Dwelling Units (ADUs) and Junior Accessory Dwelling Units (JADUs); Coastal Development Permit - PC/DRB/CC,2025-09-25,2025-11-26,2025-12-09,2026-07-22,238,300,
+0ea2eaaad8605b9c,Residential - ADU Detached,396811055121999881,issued,1,Accessory Dwelling Units (ADUs) and Junior Accessory Dwelling Units (JADUs),2025-12-10,2025-12-10,2025-12-11,2026-08-11,244,244,
+18c8f28ad0257a52,Residential - New Single Family Residence,284196436116244226,no entitlement found,0,,,,2025-12-15,,,,
+bd221a641f6026cb,Residential - ADU Detached,869431510399763281,no permit issued yet,1,Coastal Development Permit - Administrative/Emergency,2025-06-24,2025-06-24,2025-12-15,,,,504
+ae927ecb10e6fb64,Residential - New Single Family Residence,266012630353380491,no permit issued yet,2,Coastal Development Permit - PC/DRB/CC; Design Review - DRB Design Review,2025-10-09,2025-10-09,2025-12-16,,,,397
+bac792d6316e0cbb,Residential - ADU Attached,345926289004787882,no permit issued yet,1,Coastal Development Permit - PC/DRB/CC,2025-09-11,2025-09-11,2025-12-17,,,,425
+26815ef9c557cd2e,Residential - New Single Family Residence,1051860123893539134,issued,2,Coastal Development Permit - PC/DRB/CC; Design Review - DRB Design Review,2025-01-23,2025-01-23,2025-12-18,2026-09-21,606,606,
+a4bb0647ea6b7f85,Residential - ADU Detached,132010305129590755,no permit issued yet,3,Coastal Development Permit - PC/DRB/CC; Design Review - DRB Design Review; Variance - Design Review,2025-09-11,2025-09-11,2025-12-22,,,,425
+e9d81e2d744c818e,Residential - New Single Family Residence,764682530657811328,no entitlement found,0,,,,2025-12-22,,,,
+f5fdd8d422d4a083,Residential - New Single Family Residence,1113942675617176105,no permit issued yet,2,Coastal Development Permit - PC/DRB/CC; Design Review - DRB Design Review,2025-11-13,2025-11-13,2025-12-23,,,,362
+743e609c9c67b27b,Residential - New Single Family Residence,229018794198931828,no permit issued yet,2,Design Review - DRB Design Review; Variance - Design Review,2025-11-06,2025-11-06,2025-12-23,,,,369
+0f24d1c7d81ad2a4,Residential - ADU Attached,229018794198931828,no permit issued yet,2,Design Review - DRB Design Review; Variance - Design Review,2025-11-06,2025-11-06,2025-12-23,,,,369
+71d804bc596f9a5f,Residential - New Single Family Residence,1065697128169255409,no entitlement found,0,,,,2025-12-23,,,,
+6fe37fb04d209b5a,Residential - ADU Attached,1107289432841276957,no permit issued yet,1,Coastal Development Permit - Administrative/Emergency,2025-09-10,2025-09-10,2025-12-24,,,,426
+2a42bed6fc2c9393,Residential - ADU Detached,1000984973329634349,no entitlement found,0,,,,2025-12-24,,,,
+0bfd36bf7590ff1a,Residential - ADU Detached,817904303945490706,no entitlement found,0,,,,2025-12-24,2026-01-27,,,
+e7af862ad322ab87,Residential - ADU Detached,407109497586465328,no entitlement found,0,,,,2025-12-24,2026-01-27,,,
+b3336f1778909064,Residential - New Single Family Residence,374289071916206272,issued,3,Coastal Development Permit - PC/DRB/CC; Design Review - DRB Design Review; Design Review - DRB Staff-Assisted Design Review (DO NOT USE),2023-12-07,2025-09-25,2025-12-24,2026-08-03,312,970,
+499e28cb910a929f,Residential - ADU Detached,685591939228253832,no permit issued yet,2,Coastal Development Permit - PC/DRB/CC; Design Review - DRB Design Review,2025-07-24,2025-07-24,2026-01-07,,,,474
+a9cbced8af866ff8,Residential - ADU Attached,266012630353380491,no permit issued yet,2,Coastal Development Permit - PC/DRB/CC; Design Review - DRB Design Review,2025-10-09,2025-10-09,2026-01-14,,,,397
+1b1c750db64d7ea1,Residential - ADU Attached,284196436116244226,no entitlement found,0,,,,2026-01-16,,,,
+e3a6409667d3e8f2,Residential - ADU Detached,724658343165184767,issued,1,Design Review - DRB Design Review,2025-02-27,2025-02-27,2026-01-22,2026-01-29,336,336,
+7705ddd2c79c8458,Residential - ADU Attached,84898310024714565,issued,2,Coastal Development Permit - Non-Appealable Zone; Design Review - Administrative,2025-08-13,2025-08-13,2026-01-26,2026-04-30,260,260,
+716eb1fe27917b18,Residential - ADU Detached,782383610644788583,no entitlement found,0,,,,2026-01-29,,,,
+ee2bc0f8276d09a7,Residential - ADU Attached,1051860123893539134,issued,2,Coastal Development Permit - PC/DRB/CC; Design Review - DRB Design Review,2025-01-23,2025-01-23,2026-01-30,2026-09-21,606,606,
+f4dc7ac3517a1f2c,Residential - ADU Attached,841675103758535048,no permit issued yet,3,Coastal Development Permit - PC/DRB/CC; Design Review - DRB Design Review; Variance - Design Review,2025-08-14,2025-08-14,2026-01-30,,,,453
+6820afa0fe96e4b4,Residential - ADU Attached,404922414324132879,no entitlement found,0,,,,2026-02-09,2026-03-02,,,
+e8e679f65e7751d9,Residential - ADU Attached,580822083042303812,issued,1,Accessory Dwelling Units (ADUs) and Junior Accessory Dwelling Units (JADUs),2025-11-24,2025-11-24,2026-02-10,2026-02-26,94,94,
+a896b84ba1b59a20,Residential - ADU Attached,72523226409811966,no entitlement found,0,,,,2026-02-12,2026-07-27,,,
+4d051ead6d7b4f74,Residential - ADU Detached,880779782474783727,issued,1,Coastal Development Permit - Administrative/Emergency,2025-03-31,2025-03-31,2026-02-23,2026-09-14,532,532,
+4413230692726099,Residential - New Single Family Residence,962753738773530717,no permit issued yet,3,Coastal Development Permit - PC/DRB/CC; Design Review - DRB Design Review; Variance - Design Review,2023-08-24,2025-12-03,2026-02-26,,,,342
+568942b5339a4e55,Residential - New Single Family Residence,775767198356758137,no entitlement found,0,,,,2026-02-07,2026-02-07,,,
+07cc1816fced2a4d,Residential - ADU Attached,732177481629356514,no entitlement found,0,,,,2026-03-11,,,,
+e3b92cc24c0a5450,Residential - New Single Family Residence,249477524227520129,no permit issued yet,2,Coastal Development Permit - Design Review; Design Review - DRB Design Review,2025-01-23,2025-01-23,2026-03-11,,,,656
+4344577e10d8c518,Residential - ADU Attached,1050337680209342495,no permit issued yet,1,Coastal Development Permit - Administrative/Emergency,2026-07-08,2026-07-08,2026-03-14,,,,125
+7f286e870f86537b,Residential - ADU Attached,757974500326260674,no permit issued yet,1,Accessory Dwelling Units (ADUs) and Junior Accessory Dwelling Units (JADUs),2025-04-07,2025-04-07,2026-03-16,,,,582
+023f5e6b26f0524a,Residential - ADU Detached,995701546859458984,no entitlement found,0,,,,2026-03-18,,,,
+971d73d0ab864ace,Residential - New Single Family Residence,974913310402488840,no permit issued yet,2,Coastal Development Permit - PC/DRB/CC; Design Review - DRB Design Review,2025-01-06,2025-01-06,2026-03-24,,,,673
+edfef2e319c7fadf,Residential - ADU Attached,974913310402488840,no permit issued yet,2,Coastal Development Permit - PC/DRB/CC; Design Review - DRB Design Review,2025-01-06,2025-01-06,2026-03-24,,,,673
+2fa2a82a18a65e0a,Residential - ADU Detached,155908587940555001,no permit issued yet,2,Coastal Development Permit - Administrative/Emergency; Design Review - Administrative,2025-12-03,2025-12-03,2026-03-25,,,,342
+21f11b0888b0dc05,Residential - ADU Detached,887559739207281353,no permit issued yet,2,Design Review - DRB Design Review; Variance - Design Review,2024-11-14,2024-11-14,2026-03-27,,,,726
+c8931e83ffec854d,Residential - ADU Attached,887559739207281353,no permit issued yet,2,Design Review - DRB Design Review; Variance - Design Review,2024-11-14,2024-11-14,2026-03-27,,,,726
+f03057852eaa8c98,Residential - ADU Attached,981913695023543876,issued,1,Accessory Dwelling Units (ADUs) and Junior Accessory Dwelling Units (JADUs),2026-01-28,2026-01-28,2026-03-30,2026-04-08,70,70,
+b5b4de189d7050b8,Residential - ADU Attached,601574686302194738,no permit issued yet,2,Coastal Development Permit - PC/DRB/CC; Design Review - DRB Design Review,2025-11-06,2025-11-06,2026-03-30,,,,369
+612e051f03353979,Residential - New Single Family Residence,860067199941807878,no permit issued yet,3,Coastal Development Permit - PC/DRB/CC; Design Review - DRB Design Review; Parcel Map,2024-06-13,2025-01-06,2026-03-31,,,,673
+263050e113379078,Residential - ADU Detached,374289071916206272,no permit issued yet,3,Coastal Development Permit - PC/DRB/CC; Design Review - DRB Design Review; Design Review - DRB Staff-Assisted Design Review (DO NOT USE),2023-12-07,2025-09-25,2026-04-01,,,,411
+190881c3f35f05b7,Residential - ADU Detached,496633333438483711,no permit issued yet,2,Coastal Development Permit - PC/DRB/CC; Design Review - Administrative,2026-01-27,2026-01-28,2026-04-02,,,,286
+b90ade7695d9a0e4,Residential - ADU Attached,912983367297432520,no permit issued yet,3,Accessory Dwelling Units (ADUs) and Junior Accessory Dwelling Units (JADUs); Coastal Development Permit - PC/DRB/CC; Variance - Design Review,2025-09-08,2025-12-11,2026-04-06,,,,334
+bc7c31b3b49ff978,Residential - ADU Attached,912983367297432520,no permit issued yet,3,Accessory Dwelling Units (ADUs) and Junior Accessory Dwelling Units (JADUs); Coastal Development Permit - PC/DRB/CC; Variance - Design Review,2025-09-08,2025-12-11,2026-04-06,,,,334
+c6cefad6062e3cd9,Residential - ADU Attached,146271022238528824,no permit issued yet,2,Coastal Development Permit - Non-Appealable Zone; Design Review - DRB Design Review,2025-12-11,2025-12-11,2026-04-06,,,,334
+83194b873e57c19f,Residential - ADU Attached,411641741726473527,no permit issued yet,2,Design Review - DRB Design Review; Variance - Design Review,2025-03-13,2025-03-13,2026-04-07,,,,607
+ccfaf7835dae53bf,Residential - ADU Attached,1076183454951662878,issued,2,Coastal Development Permit - PC/DRB/CC; Design Review - DRB Design Review,2026-02-26,2026-02-26,2026-04-16,2026-10-27,243,243,
+e7affe273d659577,Residential - ADU Detached,671387874394875235,no entitlement found,0,,,,2026-04-16,2026-04-16,,,
+4adf4b7ee0bd7eaa,Residential - ADU Attached,466784836901594890,no entitlement found,0,,,,2026-04-21,2026-04-21,,,
+cc6561ab61919e6f,Residential - ADU Detached,700713753481945036,issued,1,Coastal Development Permit - Administrative/Emergency,2026-04-14,2026-04-14,2026-04-22,2026-09-30,169,169,
+f55cb2aa307c8b79,Residential - ADU Detached,1149816420713291617,no entitlement found,0,,,,2026-04-22,2026-10-01,,,
+b50ec5aa2fb41f6e,Residential - ADU Attached,33919033398935697,issued,4,Coastal Development Permit - PC/DRB/CC; Design Review - DRB Design Review; Variance - Design Review,2023-09-28,2026-02-26,2026-04-28,2026-09-29,215,1097,
+dbe870754ce2314d,Residential - ADU Detached,496633333438483711,no permit issued yet,2,Coastal Development Permit - PC/DRB/CC; Design Review - Administrative,2026-01-27,2026-01-28,2026-04-02,,,,286
+23f13815069e743d,Multifamily - ADU - Detached,460219004332965417,issued,3,Accessory Dwelling Units (ADUs) and Junior Accessory Dwelling Units (JADUs); Coastal Development Permit - PC/DRB/CC; Design Review - Administrative,2025-06-30,2025-08-20,2026-05-08,2026-05-21,274,325,
+5b3a8c74a920e8cd,Residential - ADU Detached,535559641150811964,issued,1,Coastal Development Permit - Administrative/Emergency,2025-03-18,2025-03-18,2026-05-04,2026-05-06,414,414,
+5fea6f502806226f,Residential - ADU Detached,890514017465695136,no permit issued yet,2,Accessory Dwelling Units (ADUs) and Junior Accessory Dwelling Units (JADUs); Coastal Development Permit - Administrative/Emergency,2026-03-12,2026-04-27,2026-05-18,,,,197
+24a909d51418a147,Residential - ADU Attached,590684291848551425,issued,1,Coastal Development Permit - PC/DRB/CC,2026-04-14,2026-04-14,2026-05-21,2026-06-17,64,64,
+1ecb24a2c6bda1ba,Residential - New Single Family Residence,6270195154208655,no permit issued yet,2,Design Review - DRB Design Review; Variance - Design Review,2026-03-20,2026-03-26,2026-05-27,,,,229
+b9161be20feeab90,Residential - New Single Family Residence,437991890368086031,no permit issued yet,3,Coastal Development Permit - Design Review; Coastal Development Permit - PC/DRB/CC; Design Review - DRB Design Review,2025-04-10,2025-10-09,2026-05-31,,,,397
+f396bb059c663e61,Residential - ADU Attached,1151973063019575686,issued,3,Design Review - DRB Design Review; Second Residential Unit,2023-02-15,2026-04-23,2026-05-31,2026-10-06,166,1329,
+548120e1d984c982,Residential - ADU Attached,1151973063019575686,issued,3,Design Review - DRB Design Review; Second Residential Unit,2023-02-15,2026-04-23,2026-05-31,2026-10-06,166,1329,
+992f5981291d92a5,Multifamily - ADU - Attached,346276243409119871,no entitlement found,0,,,,2026-06-15,,,,
+46c4a85fc9c77dec,Mixed Use - New Mixed Use,496343182930717805,no entitlement found,0,,,,2026-06-02,,,,
+88c58bf420e05e6b,Mixed Use - New Mixed Use,346895667868316843,no entitlement found,0,,,,2026-06-30,2026-09-29,,,
+b0cf178064face43,Residential - ADU Detached,746686552527545315,issued,3,Coastal Development Permit - Design Review; Design Review - DRB Design Review; Design Review - DRB Staff-Assisted Design Review (DO NOT USE),2023-07-27,2025-12-11,2026-06-01,2026-06-17,188,1056,
+2cf92b2538276f59,Residential - ADU Detached,1007444272004539906,no permit issued yet,2,Accessory Dwelling Units (ADUs) and Junior Accessory Dwelling Units (JADUs); Coastal Development Permit - Administrative/Emergency,2025-11-12,2025-12-09,2026-06-04,,,,336
+ee5aa2a32947022b,Residential - ADU Attached,514238842733449756,no permit issued yet,2,Coastal Development Permit - PC/DRB/CC; Design Review - DRB Design Review,2025-07-10,2025-07-10,2026-06-08,,,,488
+70834b8a09066087,Residential - ADU Attached,430960618130915109,no permit issued yet,2,Coastal Development Permit - PC/DRB/CC; Design Review - DRB Design Review,2025-06-12,2025-06-12,2026-06-10,,,,516
+043156ece1418ecb,Residential - ADU Detached,710705212408014697,no permit issued yet,2,Coastal Development Permit - PC/DRB/CC; Design Review - DRB Design Review,2025-12-09,2025-12-09,2026-06-15,,,,336
+e37f79898d0589a8,Residential - ADU Attached,566294924344935507,no permit issued yet,1,Coastal Development Permit - Administrative/Emergency,2025-03-13,2025-03-13,2026-06-16,,,,607
+3bc099d2f8eec184,Residential - ADU Detached,517489887613496166,no entitlement found,0,,,,2026-06-17,,,,
+1e93c18c424422c2,Residential - ADU Detached,6270195154208655,no permit issued yet,2,Design Review - DRB Design Review; Variance - Design Review,2026-03-20,2026-03-26,2026-06-18,,,,229
+8450fa091b8713e0,Residential - ADU Attached,861231748338551660,no permit issued yet,2,Coastal Development Permit - PC/DRB/CC; Design Review - DRB Design Review,2026-04-09,2026-04-24,2026-06-18,,,,200
+21d224aa650cc63f,Residential - New Single Family Residence,826113480639004345,no permit issued yet,3,Coastal Development Permit - PC/DRB/CC; Design Review - DRB Design Review; Variance - Design Review,2026-04-09,2026-04-09,2026-06-23,,,,215
+b900d2a8e42b462f,Residential - ADU Attached,1096693001241708769,no permit issued yet,1,Design Review - Administrative,2026-11-05,2026-11-05,2026-06-24,,,,5
+d2dcd2217dbe32ee,Residential - New Single Family Residence,666747898831826282,no permit issued yet,3,Coastal Development Permit - Design Review; Design Review - DRB Design Review; Variance - Design Review,2025-01-09,2025-01-09,2026-06-24,,,,670
+54be55d33d490531,Residential - New Single Family Residence,658445339354594813,no permit issued yet,3,Coastal Development Permit - PC/DRB/CC; Design Review - DRB Design Review; Variance - Design Review,2025-04-10,2025-04-10,2026-06-29,,,,579
+90bdf5fe58ce753e,Residential - ADU Attached,725951497730656152,no entitlement found,0,,,,2026-06-30,,,,
+e16520c0c6aacc69,Residential - ADU Detached,658445339354594813,no permit issued yet,3,Coastal Development Permit - PC/DRB/CC; Design Review - DRB Design Review; Variance - Design Review,2025-04-10,2025-04-10,2026-07-08,,,,579
+a2a50d3bbe2f1b14,Residential - ADU Attached,666747898831826282,no permit issued yet,3,Coastal Development Permit - Design Review; Design Review - DRB Design Review; Variance - Design Review,2025-01-09,2025-01-09,2026-07-08,,,,670
+2b01f2be1076c2fa,Residential - ADU Attached,606952740278344084,no permit issued yet,3,Design Review - Administrative; Design Review - DRB Design Review; Variance - Design Review,2023-12-13,2024-12-12,2026-07-09,,,,698
+6780370e02ca42c5,Residential - ADU Attached,835746580576905992,no permit issued yet,2,Coastal Development Permit - Administrative/Emergency; Design Review - Administrative,2026-06-17,2026-06-17,2026-07-09,,,,146
+48acaf7bbbe69d42,Residential - ADU Detached,779259119085241966,no permit issued yet,1,Accessory Dwelling Units (ADUs) and Junior Accessory Dwelling Units (JADUs),2025-11-19,2025-11-19,2026-07-13,,,,356
+1cce1e9916e7081b,Residential - ADU Attached,586098172725951305,issued,1,Accessory Dwelling Units (ADUs) and Junior Accessory Dwelling Units (JADUs),2026-04-29,2026-04-29,2026-07-09,2026-09-10,134,134,
+b22d422d3ce75384,Mixed Use - New Mixed Use,1066926327320950950,no permit issued yet,4,Coastal Development Permit - Administrative/Emergency; Coastal Development Permit - PC/DRB/CC; Conditional Use Permit - Change of Use; Design Review - Planning Commission Design Review,2025-05-21,2025-05-21,2026-08-17,,,,538
+cd4016086fe00548,Residential - New Single Family Residence,557499424451971925,no permit issued yet,2,Coastal Development Permit - PC/DRB/CC; Design Review - DRB Design Review,2026-06-09,2026-06-09,2026-08-03,,,,154
+216babf31a6604d4,Residential - ADU Detached,557499424451971925,no permit issued yet,2,Coastal Development Permit - PC/DRB/CC; Design Review - DRB Design Review,2026-06-09,2026-06-09,2026-08-03,,,,154
+2918736442a8240f,Residential - New Single Family Residence,589385029919359042,no permit issued yet,2,Coastal Development Permit - PC/DRB/CC; Design Review - DRB Design Review,2025-11-13,2025-11-13,2026-08-05,,,,362
+e68ee2dfe7a67b86,Residential - ADU Attached,880033979648847745,no entitlement found,0,,,,2026-08-12,,,,
+d34ceeb973d93753,Residential - ADU Detached,426898927025108468,no permit issued yet,1,Accessory Dwelling Units (ADUs) and Junior Accessory Dwelling Units (JADUs),2026-06-08,2026-06-08,2026-08-12,,,,155
+7fb97e3d424acf13,Residential - New Single Family Residence,530300643094262328,no permit issued yet,2,Coastal Development Permit - PC/DRB/CC; Design Review - DRB Design Review,2026-04-23,2026-04-23,2026-08-18,,,,201
+eb8ad376f472db05,Residential - ADU Attached,217243972834089699,no permit issued yet,3,Coastal Development Permit - PC/DRB/CC; Design Review - DRB Design Review; Variance - Design Review,2025-12-11,2025-12-11,2026-08-24,,,,334
+59d811b9d471ad7a,Residential - ADU Attached,884311519081630878,no permit issued yet,2,Coastal Development Permit - PC/DRB/CC; Design Review - DRB Design Review,2026-02-12,2026-02-12,2026-08-24,,,,271
+f3cc0599ee244748,Residential - ADU Attached,912983367297432520,no permit issued yet,3,Accessory Dwelling Units (ADUs) and Junior Accessory Dwelling Units (JADUs); Coastal Development Permit - PC/DRB/CC; Variance - Design Review,2025-09-08,2025-12-11,2026-09-01,,,,334
+43241ae4eb8a470f,Residential - New Single Family Residence,694550963432126993,no permit issued yet,3,Coastal Development Permit - PC/DRB/CC; Design Review - DRB Design Review; Variance - Design Review,2025-12-11,2025-12-11,2026-09-02,,,,334
+c24b6efc9b4e41e7,Residential - ADU Detached,147395719059225527,no permit issued yet,2,Coastal Development Permit - PC/DRB/CC; Design Review - DRB Design Review,2025-10-23,2025-10-23,2026-09-07,,,,383
+6743f94618f023a2,Residential - ADU Attached,93029514627572583,no permit issued yet,1,Coastal Development Permit - Administrative/Emergency,2026-11-10,2026-11-10,2026-09-09,,,,0
+363653986941f5d6,Residential - ADU Attached,49729374079431203,no permit issued yet,2,Coastal Development Permit - PC/DRB/CC; Variance - Design Review,2026-06-11,2026-06-11,2026-09-09,,,,152
+2ba2016a7c0181c7,Residential - ADU Attached,113479512282968205,no permit issued yet,3,Coastal Development Permit - PC/DRB/CC; Design Review - Administrative; Design Review - DRB Design Review,2024-01-03,2026-03-26,2026-09-12,,,,229
+39324a2afc0c8deb,Residential - New Single Family Residence,1130766239523451951,no permit issued yet,2,Coastal Development Permit - PC/DRB/CC; Design Review - DRB Design Review,2026-08-13,2026-08-13,2026-09-14,,,,89
+49711044979d1ab5,Residential - ADU Attached,418632303236255546,no permit issued yet,1,Accessory Dwelling Units (ADUs) and Junior Accessory Dwelling Units (JADUs),2026-08-27,2026-08-27,2026-09-21,,,,75
+63ebd3b3ba835906,Residential - New Single Family Residence,292198173592587527,no entitlement found,0,,,,2026-09-29,,,,
+0988d3f336c3d469,Residential - ADU Attached,316860139132474141,no entitlement found,0,,,,2026-10-03,2026-10-22,,,
+bc891613a8fe1288,Residential - New Single Family Residence,295602878435637085,no entitlement found,0,,,,2026-10-15,,,,
+279295e1d265d1c2,Residential - ADU Attached,295602878435637085,no entitlement found,0,,,,2026-10-19,,,,
