@@ -98,6 +98,19 @@ Wait is from the last approved entitlement on the parcel to building permit issu
 - **First or last entitlement.** 62 of the 117 had more than one entitlement on the parcel.
   Measured from the first one, the median is 9.9 months.
 
+### Application to approval (same pull, from the master file)
+
+`portal_master.py` also writes both waits onto each row of the master file: `days_apply_to_approval`
+on plan rows and `days_approval_to_permit` on housing permit rows.
+
+- **Application to approval:** a median of 2.4 months across 969 approved entitlements. Design review
+  2.3 (576), coastal development permit 2.4 (233), variance 2.8 (78), conditional use permit 1.4 (39),
+  ADU review 3.7 (33). The APR gives 2.3 months for Laguna Beach.
+- **Approval to permit, matched by site:** 8.3 months across 118 issued housing permits. The link
+  file above matches by parcel only and finds 117.
+- **Dates out of order:** 65 plans have a completed date before their applied date, 4 of them
+  entitlements. They are left in the file. The cause is unknown.
+
 ## Assumptions
 
 All of these are the team's choices, marked `ASSUMPTION` in the code and in
